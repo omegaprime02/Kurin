@@ -51,7 +51,7 @@
                 <offsets>
                     <south>
                         <bodyTypes>
-                            <Female>(-0.41,0.15)</Female>
+                            <Female>(-0.3729904,0.3022508)</Female>
                         </bodyTypes>
                         <crownTypes>
                             <Normal_Average>(0,0)</Normal_Average>
@@ -59,7 +59,7 @@
                     </south>
                     <north>
                         <bodyTypes>
-                            <Female>(0,0.09)</Female>
+                            <Female>(0,0)</Female>
                         </bodyTypes>
                         <crownTypes>
                             <Normal_Average>(0,0)</Normal_Average>
@@ -67,7 +67,7 @@
                     </north>
                     <east>
                         <bodyTypes>
-                            <Female>(-0.06,0.0)</Female>
+                            <Female>(-0.4201287,0.3536978)</Female>
                         </bodyTypes>
                         <crownTypes>
                             <Normal_Average>(0,0)</Normal_Average>
@@ -86,7 +86,7 @@
                 <offsets>
                     <south>
                         <bodyTypes>
-                            <Female>(-0.42,0.56)</Female>
+                            <Female>((-0.4276527,0.2379421))</Female>
                         </bodyTypes>
                         <crownTypes>
                             <Normal_Average>(0,0)</Normal_Average>
@@ -94,15 +94,15 @@
                     </south>
                     <north>
                         <bodyTypes>
-                            <Female>(-0.0,0.89)</Female>
+                            <Female>(-0.45,0)</Female>
                         </bodyTypes>
                         <crownTypes>
-                            <Normal_Average>(0,0)</Normal_Average>
+                            <Normal_Average>(0.45,0)</Normal_Average>
                         </crownTypes>
                     </north>
                     <east>
                         <bodyTypes>
-                            <Female>(-0.53,0.56)</Female>
+                            <Female>(-0.4308682,0.2636656)</Female>
                         </bodyTypes>
                         <crownTypes>
                             <Normal_Average>(0,0)</Normal_Average>
@@ -111,7 +111,7 @@
                 </offsets>
                 </li>
 			<!--왼쪽귀B-->
-                <li>
+             <!--   <li>
                 <path>Kurin/Ear/A/Texture</path>
                 <bodyPart>left ear</bodyPart>				
                 <inFrontOfBody>false</inFrontOfBody>
@@ -121,7 +121,7 @@
                 <offsets>
                     <south>
                         <bodyTypes>
-                            <Female>(-0.42,0.56)</Female>
+                            <Female>(-0.4276527,0.2379421)</Female>
                         </bodyTypes>
                         <crownTypes>
                             <Normal_Average>(0,0)</Normal_Average>
@@ -129,7 +129,7 @@
                     </south>
                     <north>
                         <bodyTypes>
-                            <Female>(-0.0,0.89)</Female>
+                            <Female>(-0.45,0)</Female>
                         </bodyTypes>
                         <crownTypes>
                             <Normal_Average>(0,0)</Normal_Average>
@@ -137,14 +137,14 @@
                     </north>
                     <east>
                         <bodyTypes>
-                            <Female>(-0.53,0.56)</Female>
+                            <Female>(-0,45)</Female>
                         </bodyTypes>
                         <crownTypes>
                             <Normal_Average>(0,0)</Normal_Average>
                         </crownTypes>
                     </east>
                 </offsets>
-                </li>
+                </li> -->
 			<!--오른쪽귀A-->
                 <li>
                 <path>Kurin/Ear/B/Texture</path>
@@ -156,7 +156,7 @@
                 <offsets>
                     <south>
                         <bodyTypes>
-                            <Female>(-0.42,0.56)</Female>
+                            <Female>((-0.4276527,0.2379421))</Female>
                         </bodyTypes>
                         <crownTypes>
                             <Normal_Average>(0,0)</Normal_Average>
@@ -164,7 +164,7 @@
                     </south>
                     <north>
                         <bodyTypes>
-                            <Female>(-0.0,0.89)</Female>
+                            <Female>(0,0)</Female>
                         </bodyTypes>
                         <crownTypes>
                             <Normal_Average>(0,0)</Normal_Average>
@@ -172,7 +172,7 @@
                     </north>
                     <east>
                         <bodyTypes>
-                            <Female>(-0.53,0.56)</Female>
+                            <Female>(-0.4308682,0.2636656)</Female>
                         </bodyTypes>
                         <crownTypes>
                             <Normal_Average>(0,0)</Normal_Average>
@@ -181,7 +181,7 @@
                 </offsets>
                 </li>
 			<!--오른쪽귀B-->
-                <li>
+             <!--   <li>
                 <path>Kurin/Ear/B/Texture</path>
                 <bodyPart>right ear</bodyPart>				
                 <inFrontOfBody>false</inFrontOfBody>
@@ -191,7 +191,7 @@
                 <offsets>
                     <south>
                         <bodyTypes>
-                            <Female>(-0.42,0.56)</Female>
+                            <Female>((-0.4276527,0.2379421))</Female>
                         </bodyTypes>
                         <crownTypes>
                             <Normal_Average>(0,0)</Normal_Average>
@@ -214,7 +214,7 @@
                         </crownTypes>
                     </east>
                 </offsets>
-                </li>
+                </li> -->
             </bodyAddons>
             <alienskincolorgen Class="ColorGenerator_Options">
                 <options>
@@ -273,7 +273,7 @@
 <!--=============================================================================================================================-->
 		<raceRestriction>
             <apparelList>
-
+				<li>Kurin_OnSkin_Shirt</li>
             </apparelList>
 			<whiteApparelList>
 				<li>Apparel_ShieldBelt</li>
@@ -281,7 +281,7 @@
 			</whiteApparelList>
             <onlyUseRaceRestrictedApparel>true</onlyUseRaceRestrictedApparel>
             <buildingList>
-                <li>Kurin_NooseTrap</li>
+                <!--<li>Kurin_NooseTrap</li>-->
 				<li>Kurin_Electric_Tailoring_Bench</li>
             </buildingList>
         </raceRestriction>
@@ -435,7 +435,7 @@
       </specialShadowData>
       <ageGenerationCurve>
         <points>
-          <li>(14,20)</li>
+          <li>(14,0)</li>
           <li>(20,100)</li>
           <li>(30,100)</li>
           <li>(40,10)</li>

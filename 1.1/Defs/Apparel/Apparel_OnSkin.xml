@@ -101,11 +101,6 @@
 		<researchPrerequisite>Kurin_ApparelT2</researchPrerequisite>
 	</recipeMaker>
 	<apparel>
-		<bodyPartGroups>
-			<li>Torso</li>
-			<li>Neck</li>
-		</bodyPartGroups>
-		<wornGraphicPath>Kurin/Apparel/OnSkin/Hot_Pants/Texture</wornGraphicPath>
 		<tags>
 			<li>Kurin_Colonist</li>
 			<li>Kurin_Citizen</li>
@@ -140,10 +135,6 @@
 		<li>Leathery</li>
 	</stuffCategories>
 	<statBases>
-		<bodyPartGroups>
-			<li>Torso</li>
-			<li>Neck</li>
-		</bodyPartGroups>
 		<MaxHitPoints>125</MaxHitPoints>
 		<WorkToMake>6000</WorkToMake>
 		<StuffEffectMultiplierArmor>0.2</StuffEffectMultiplierArmor>
@@ -470,8 +461,6 @@
 		<li>Metallic</li>
 	</stuffCategories>
 	<statBases>
-
-		</bodyPartGroups>
 		<MaxHitPoints>300</MaxHitPoints>
 		<WorkToMake>32000</WorkToMake>
 		<StuffEffectMultiplierArmor>0.85</StuffEffectMultiplierArmor>
@@ -488,6 +477,7 @@
 			<li>Neck</li>
 			<li>Feet</li>
 			<li>Hands</li>
+		</bodyPartGroups>
 		<wornGraphicPath>Kurin/Apparel/OnSkin/Bikini_Armor/Texture</wornGraphicPath>
 	</apparel>
 	<equippedStatOffsets>
@@ -558,7 +548,6 @@
 		<li>Leathery</li>
 	</stuffCategories>
 	<statBases>
-		</bodyPartGroups>
 		<MaxHitPoints>150</MaxHitPoints>
 		<WorkToMake>8000</WorkToMake>
 		<StuffEffectMultiplierArmor>0.3</StuffEffectMultiplierArmor>
@@ -571,6 +560,7 @@
 			<li>Legs</li>
 			<li>Arms</li>
 			<li>Neck</li>
+		</bodyPartGroups>
 		<wornGraphicPath>Kurin/Apparel/OnSkin/Nun_Dress/Texture</wornGraphicPath>
 	</apparel>
 	<equippedStatOffsets>
