@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+<ApparelLayerDef>
+	<defName>Kurin_Underwear</defName>
+	<label>underwear</label>
+	<drawOrder>-2</drawOrder>
+</ApparelLayerDef>
+
+<ApparelLayerDef>
+	<defName>Kurin_Stocking</defName>
+	<label>stocking</label>
+	<drawOrder>-1</drawOrder>
+</ApparelLayerDef>
+
+</Defs>

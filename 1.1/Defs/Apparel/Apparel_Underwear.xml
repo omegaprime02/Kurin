@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+<ThingDef Name="Kurin_UnderwearBase" ParentName="Kurin_ApparelBase" Abstract="True">
+	<recipeMaker>
+		<researchPrerequisite>Kurin_ApparelT1</researchPrerequisite>
+	</recipeMaker>
+	<costStuffCount>25</costStuffCount>
+	<stuffCategories>
+		<li>Fabric</li>
+	</stuffCategories>
+	<statBases>
+		<Mass>0.1</Mass>
+		<EquipDelay>1.0</EquipDelay>
+		<MaxHitPoints>100</MaxHitPoints>
+		<WorkToMake>2000</WorkToMake>
+		<StuffEffectMultiplierArmor>0.05</StuffEffectMultiplierArmor>
+		<StuffEffectMultiplierInsulation_Cold>0.10</StuffEffectMultiplierInsulation_Cold>
+		<StuffEffectMultiplierInsulation_Heat>0.00</StuffEffectMultiplierInsulation_Heat>
+	</statBases>
+	<apparel>
+		<bodyPartGroups>
+			<li>Torso</li>
+		</bodyPartGroups>
+		<layers>
+			<li>Kurin_Underwear</li>
+		</layers>
+		<tags>
+			<li>Kurin_Underwear</li>
+			<!--Royal-->
+			<li>Royal</li>
+			<li>RoyalTier5</li>
+			<!--Royal-->
+		</tags>
+	</apparel>
+	<thingCategories>
+		<li>Kurin_Apparel_Underwear</li>
+	</thingCategories>
+</ThingDef>
+
+<ThingDef ParentName="Kurin_UnderwearBase">
+	<defName>Kurin_Underwear_White</defName>
+	<label>kurin white underwear</label>
+	<description>귀여운 흰색 속옷입니다. 쿠린의 매력을 더욱 돋보이게 해줍니다.</description>
+	<graphicData>
+		<texPath>Kurin/Apparel/Underwear/White_Underwear/Texture</texPath>
+	</graphicData>
+	<apparel>
+		<wornGraphicPath>Kurin/Apparel/Underwear/White_Underwear/Texture</wornGraphicPath>
+	</apparel>
+</ThingDef>
+
+<ThingDef ParentName="Kurin_UnderwearBase">
+	<defName>Kurin_Underwear_Black</defName>
+	<label>kurin black underwear</label>
+	<description>섹시한 검정색 속옷입니다. 쿠린의 매력을 더욱 돋보이게 해줍니다.</description>
+	<graphicData>
+		<texPath>Kurin/Apparel/Underwear/Black_Underwear/Texture</texPath>
+	</graphicData>
+	<apparel>
+		<wornGraphicPath>Kurin/Apparel/Underwear/Black_Underwear/Texture</wornGraphicPath>
+	</apparel>
+</ThingDef>
+
+<ThingDef ParentName="Kurin_UnderwearBase">
+	<defName>Kurin_Underwear_Red</defName>
+	<label>kurin red underwear</label>
+	<description>정열적인 붉은색 속옷입니다. 쿠린의 매력을 더욱 돋보이게 해줍니다.</description>
+	<graphicData>
+		<texPath>Kurin/Apparel/Underwear/Red_Underwear/Texture</texPath>
+	</graphicData>
+	<apparel>
+		<wornGraphicPath>Kurin/Apparel/Underwear/Red_Underwear/Texture</wornGraphicPath>
+	</apparel>
+</ThingDef>
+
+<ThingDef ParentName="Kurin_UnderwearBase">
+	<defName>Kurin_Underwear_Striped</defName>
+	<label>kurin striped underwear</label>
+	<description>독특한 줄무늬 속옷입니다. 쿠린의 매력을 더욱 돋보이게 해줍니다.</description>
+	<graphicData>
+		<texPath>Kurin/Apparel/Underwear/Striped_Underwear/Texture</texPath>
+	</graphicData>
+	<apparel>
+		<wornGraphicPath>Kurin/Apparel/Underwear/Striped_Underwear/Texture</wornGraphicPath>
+	</apparel>
+</ThingDef>
+
+<ThingDef ParentName="Kurin_UnderwearBase">
+	<defName>Kurin_Underwear_Slim</defName>
+	<label>kurin slim underwear</label>
+	<description>아주 얇은 속옷입니다. 쿠린의 매력을 더욱 돋보이게 해줍니다.</description>
+	<graphicData>
+		<texPath>Kurin/Apparel/Underwear/Slim_Underwear/Texture</texPath>
+	</graphicData>
+	<apparel>
+		<wornGraphicPath>Kurin/Apparel/Underwear/Slim_Underwear/Texture</wornGraphicPath>
+	</apparel>
+</ThingDef>
+
+</Defs>
