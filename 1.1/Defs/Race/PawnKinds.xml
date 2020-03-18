@@ -22,7 +22,7 @@
       <max>600</max>
     </apparelMoney>
     <apparelRequired>
-      <li>Kurin_Apparel_Underwear</li>
+      <li>Kurin_Underwear</li>
     </apparelRequired>
     <backstoryCryptosleepCommonality>0</backstoryCryptosleepCommonality>
   </PawnKindDef>
