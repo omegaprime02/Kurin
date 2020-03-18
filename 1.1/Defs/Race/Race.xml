@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 <AlienRace.ThingDef_AlienRace ParentName="BasePawn">
-    <defName>Kurin</defName>
+    <defName>Kurin_Race</defName>
     <label>Kurin</label>
     <description>유전자 공학으로 만들어진 인공 생명체입니다. 제작과 요리를 잘하고 귀여운 외모로 사람을 홀려 사교도 잘합니다.</description>
 <!--=============================================================================================================================-->
@@ -38,6 +38,7 @@
 				<li>Average_Pointy</li>
 				<li>Average_Wild</li>
             </aliencrowntypes>
+			<headOffset>(0 ,-0.08)</headOffset>
             <useGenderedHeads>false</useGenderedHeads>
 			<useGenderedBodies>false</useGenderedBodies>
             <bodyAddons>
@@ -51,7 +52,7 @@
                 <offsets>
                     <south>
                         <bodyTypes>
-                            <Female>(-0.3729904,0.3022508)</Female>
+                            <Female>(-0.3729904,0.2315113)</Female>
                         </bodyTypes>
                         <crownTypes>
                             <Normal_Average>(0,0)</Normal_Average>
@@ -59,7 +60,7 @@
                     </south>
                     <north>
                         <bodyTypes>
-                            <Female>(0,0)</Female>
+                            <Female>(0,0.5273312)</Female>
                         </bodyTypes>
                         <crownTypes>
                             <Normal_Average>(0,0)</Normal_Average>
@@ -67,7 +68,7 @@
                     </north>
                     <east>
                         <bodyTypes>
-                            <Female>(-0.4201287,0.3536978)</Female>
+                            <Female>(-0.3944052,0.199357)</Female>
                         </bodyTypes>
                         <crownTypes>
                             <Normal_Average>(0,0)</Normal_Average>
@@ -77,16 +78,24 @@
                 </li>
 			<!--왼쪽귀A-->
                 <li>
-                <path>Kurin/Ear/A/Texture</path>
+                <path>Kurin/Ear/Ears/DRNTFEarLA</path>
                 <bodyPart>left ear</bodyPart>				
                 <inFrontOfBody>true</inFrontOfBody>
                 <useSkinColor>false</useSkinColor>
 				<drawSize>1</drawSize>
                 <angle>0</angle>
                 <offsets>
+				    <west>
+                        <bodyTypes>
+                            <Female>(-0.540193,0.4180064)</Female>
+                        </bodyTypes>
+                        <crownTypes>
+                            <Normal_Average>(0,0)</Normal_Average>
+                        </crownTypes>
+                    </west>
                     <south>
                         <bodyTypes>
-                            <Female>((-0.4276527,0.2379421))</Female>
+                            <Female>(-0.4212219,0.4308681)</Female>
                         </bodyTypes>
                         <crownTypes>
                             <Normal_Average>(0,0)</Normal_Average>
@@ -94,15 +103,15 @@
                     </south>
                     <north>
                         <bodyTypes>
-                            <Female>(-0.45,0)</Female>
+                            <Female>(0,0.7877813)</Female>
                         </bodyTypes>
                         <crownTypes>
-                            <Normal_Average>(0.45,0)</Normal_Average>
+                            <Normal_Average>(0,0)</Normal_Average>
                         </crownTypes>
                     </north>
                     <east>
                         <bodyTypes>
-                            <Female>(-0.4308682,0.2636656)</Female>
+                            <Female>(-0.540193,0.4180064)</Female>
                         </bodyTypes>
                         <crownTypes>
                             <Normal_Average>(0,0)</Normal_Average>
@@ -111,17 +120,25 @@
                 </offsets>
                 </li>
 			<!--왼쪽귀B-->
-             <!--   <li>
-                <path>Kurin/Ear/A/Texture</path>
+                <li>
+                <path>Kurin/Ear/Ears/DRNTFEarLB</path>
                 <bodyPart>left ear</bodyPart>				
                 <inFrontOfBody>false</inFrontOfBody>
                 <useSkinColor>false</useSkinColor>
 				<drawSize>1</drawSize>
                 <angle>0</angle>
                 <offsets>
+					<west>
+                        <bodyTypes>
+                            <Female>(-0.540193,0.4180064)</Female>
+                        </bodyTypes>
+                        <crownTypes>
+                            <Normal_Average>(0,0)</Normal_Average>
+                        </crownTypes>
+                    </west>
                     <south>
                         <bodyTypes>
-                            <Female>(-0.4276527,0.2379421)</Female>
+                            <Female>(-0.4212219,0.4308681)</Female>
                         </bodyTypes>
                         <crownTypes>
                             <Normal_Average>(0,0)</Normal_Average>
@@ -129,7 +146,7 @@
                     </south>
                     <north>
                         <bodyTypes>
-                            <Female>(-0.45,0)</Female>
+                            <Female>(0,0.7877813)</Female>
                         </bodyTypes>
                         <crownTypes>
                             <Normal_Average>(0,0)</Normal_Average>
@@ -137,26 +154,34 @@
                     </north>
                     <east>
                         <bodyTypes>
-                            <Female>(-0,45)</Female>
+                            <Female>(-0.540193,0.4180064)</Female>
                         </bodyTypes>
                         <crownTypes>
                             <Normal_Average>(0,0)</Normal_Average>
                         </crownTypes>
                     </east>
                 </offsets>
-                </li> -->
+                </li>
 			<!--오른쪽귀A-->
                 <li>
-                <path>Kurin/Ear/B/Texture</path>
+                <path>Kurin/Ear/Ears/DRNTFEarRA</path>
                 <bodyPart>right ear</bodyPart>				
                 <inFrontOfBody>true</inFrontOfBody>
                 <useSkinColor>false</useSkinColor>
 				<drawSize>1</drawSize>
                 <angle>0</angle>
                 <offsets>
+					<west>
+                        <bodyTypes>
+                            <Female>(-0.540193,0.4180064)</Female>
+                        </bodyTypes>
+                        <crownTypes>
+                            <Normal_Average>(0,0)</Normal_Average>
+                        </crownTypes>
+                    </west>
                     <south>
                         <bodyTypes>
-                            <Female>((-0.4276527,0.2379421))</Female>
+                            <Female>(-0.4212219,0.4308681)</Female>
                         </bodyTypes>
                         <crownTypes>
                             <Normal_Average>(0,0)</Normal_Average>
@@ -164,7 +189,7 @@
                     </south>
                     <north>
                         <bodyTypes>
-                            <Female>(0,0)</Female>
+                            <Female>(0,0.7877813)</Female>
                         </bodyTypes>
                         <crownTypes>
                             <Normal_Average>(0,0)</Normal_Average>
@@ -172,7 +197,7 @@
                     </north>
                     <east>
                         <bodyTypes>
-                            <Female>(-0.4308682,0.2636656)</Female>
+                            <Female>(-0.540193,0.4180064)</Female>
                         </bodyTypes>
                         <crownTypes>
                             <Normal_Average>(0,0)</Normal_Average>
@@ -181,17 +206,25 @@
                 </offsets>
                 </li>
 			<!--오른쪽귀B-->
-             <!--   <li>
-                <path>Kurin/Ear/B/Texture</path>
+                <li>
+                <path>Kurin/Ear/Ears/DRNTFEarRB</path>
                 <bodyPart>right ear</bodyPart>				
                 <inFrontOfBody>false</inFrontOfBody>
                 <useSkinColor>false</useSkinColor>
 				<drawSize>1</drawSize>
                 <angle>0</angle>
                 <offsets>
+					<west>
+                        <bodyTypes>
+                            <Female>(-0.540193,0.4180064)</Female>
+                        </bodyTypes>
+                        <crownTypes>
+                            <Normal_Average>(0,0)</Normal_Average>
+                        </crownTypes>
+                    </west>
                     <south>
                         <bodyTypes>
-                            <Female>((-0.4276527,0.2379421))</Female>
+                            <Female>(-0.4212219,0.4308681)</Female>
                         </bodyTypes>
                         <crownTypes>
                             <Normal_Average>(0,0)</Normal_Average>
@@ -199,7 +232,7 @@
                     </south>
                     <north>
                         <bodyTypes>
-                            <Female>(-0.0,0.89)</Female>
+                            <Female>(0,0.7877813)</Female>
                         </bodyTypes>
                         <crownTypes>
                             <Normal_Average>(0,0)</Normal_Average>
@@ -207,15 +240,35 @@
                     </north>
                     <east>
                         <bodyTypes>
-                            <Female>(-0.53,0.56)</Female>
+                            <Female>(-0.540193,0.4180064)</Female>
                         </bodyTypes>
                         <crownTypes>
                             <Normal_Average>(0,0)</Normal_Average>
                         </crownTypes>
                     </east>
                 </offsets>
-                </li> -->
+                </li>
             </bodyAddons>
+            <alienhaircolorgen Class="ColorGenerator_Options">
+                <options>
+                    <li>
+                        <weight>5</weight>
+                        <only>RGBA(0.51,0.77,0.86,1)</only>
+                    </li>
+                    <li>
+                        <weight>5</weight>
+                        <only>RGBA(0.70,0.65,0.82,1)</only>
+                    </li>
+                    <li>
+                        <weight>5</weight>
+                        <only>RGBA(0.61,0.75,0.91,1)</only>
+                    </li>
+                    <li>
+                        <weight>5</weight>
+                        <only>RGBA(0.79,0.86,0.96,1)</only>
+                    </li>
+                </options>
+            </alienhaircolorgen>
             <alienskincolorgen Class="ColorGenerator_Options">
                 <options>
                     <li>
@@ -274,6 +327,50 @@
 		<raceRestriction>
             <apparelList>
 				<li>Kurin_OnSkin_Shirt</li>
+				<li>Kurin_OnSkin_T_Shirt</li>
+				<li>Kurin_OnSkin_Hot_Pants</li>
+				<li>Kurin_OnSkin_Pajamas</li>
+				<li>Kurin_OnSkin_One_Piece_Dress</li>
+				<li>Kurin_OnSkin_Open_Back_Knit</li>
+				<li>Kurin_OnSkin_Open_Shoulder_Knit</li>
+				<li>Kurin_OnSkin_Hoodie</li>
+				<li>Kurin_OnSkin_Casual_Wear</li>
+				<li>Kurin_OnSkin_Armored_Gothic_Dress</li>
+				<li>Kurin_OnSkin_Gothic_Dress</li>
+				<li>Kurin_OnSkin_Bikini_Armor</li>
+				<li>Kurin_OnSkin_Military_Uniform</li>
+				<li>Kurin_OnSkin_Nun_Dress</li>
+				<li>Kurin_OnSkin_Work_Jumpsuit</li>
+				<li>Kurin_OnSkin_Traditional_Simple_Dress</li>
+				<li>Kurin_OnSkin_Traditional_Fancy_Dress</li>
+				<li>Kurin_OnSkin_Traditional_Luxury_Dress</li>
+				<li>Kurin_OnSkin_Cute_Dress</li>
+				<li>Kurin_OnSkin_Seductive_White_Dress</li>
+				<li>Kurin_OnSkin_Seductive_Black_Dress</li>
+				<li>Kurin_Stockings_White</li>
+				<li>Kurin_Stockings_Brown</li>
+				<li>Kurin_Stockings_Striped</li>
+				<li>Kurin_Stockings_Garterbelt</li>
+				<li>Kurin_Stockings_Pantyhose</li>
+				<li>Kurin_Underwear_White</li>
+				<li>Kurin_Underwear_Black</li>
+				<li>Kurin_Underwear_Red</li>
+				<li>Kurin_Underwear_Striped</li>
+				<li>Kurin_Underwear_Slim</li>
+				<li>Kurin_Middle_Body_Armor</li>
+				<li>Kurin_Overhead_Winter_Hat</li>
+				<li>Kurin_Overhead_Summer_Hat</li>
+				<li>Kurin_Overhead_Casual_Hair_Pin</li>
+				<li>Kurin_Overhead_Goggles</li>
+				<li>Kurin_Overhead_Gothic_Hair_Pin</li>
+				<li>Kurin_Overhead_Bikini_Armor_Headgear</li>
+				<li>Kurin_Overhead_Military_Helmet</li>
+				<li>Kurin_Overhead_Traditional_Hair_Pin</li>
+				<li>Kurin_Overhead_Cute_Hair_Pin</li>
+				<li>Kurin_Shell_Cardigan</li>
+				<li>Kurin_Shell_Duster</li>
+				<li>Kurin_Shell_Winter_Padding</li>
+				<li>Kurin_OnSkin_Traditional_Coat</li>
             </apparelList>
 			<whiteApparelList>
 				<li>Apparel_ShieldBelt</li>
@@ -310,7 +407,7 @@
 	  <ButcheryMechanoidSpeed>1.1</ButcheryMechanoidSpeed> <!--메카노이드 분해 속도-->
 	  <SmeltingSpeed>1.1</SmeltingSpeed> <!--금속 제련 속도-->
 	  <SmithingSpeed>1.1</SmithingSpeed> <!--제련 속도-->
-	  <TailoringSpeed>1.1</TailoringSpeed> <!--재단 속도-->
+	  <!--<TailoringSpeed>1.1</TailoringSpeed>--> <!--재단 속도-->
 	<!--조리-->
 	  <ButcheryFleshEfficiency>1.05</ButcheryFleshEfficiency> <!--도축 효율-->
 	  <ButcheryFleshSpeed>1.1</ButcheryFleshSpeed> <!--도축 속도-->

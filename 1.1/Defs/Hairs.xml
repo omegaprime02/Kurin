@@ -54,7 +54,7 @@
 		<defName>DRNTF_Hair_06</defName>
 		<label>Kurin_Hair_06</label>
 		<hairGender>Female</hairGender>
-		<texPath>Kurin/Hairs/6/</texPath>
+		<texPath>Kurin/Hairs/6/DRNTF_Hair_06</texPath>
 		<hairTags>
 			<li>Kurin</li>
 		</hairTags>

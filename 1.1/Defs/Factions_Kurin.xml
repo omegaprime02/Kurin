@@ -2,10 +2,11 @@
 <Defs>
 
 <FactionDef>
-	<defName>Kurin_PlayerFaction</defName>
+	<defName>Kurin_Player</defName>
 	<label>Kurin's new base</label>
 	<description>It is the base of the Kurin.</description>
 	<settlementTexturePath>Kurin/Faction/Texture</settlementTexturePath>
+	<categoryTag>Kurin_Citizen</categoryTag>
 	<colorSpectrum>
 		<li>(1, 1, 1)</li>
 	</colorSpectrum>
@@ -17,15 +18,16 @@
 	<backstoryFilters>
 		<li>
 			<categories>
-				<li>Offworld</li>
+				<li>Kurin_Citizen</li>
 			</categories>
+			<commonality>1</commonality>
 		</li>
 	</backstoryFilters>
 	<factionIconPath>Kurin/Faction/Texture</factionIconPath>
 	<playerInitialSettlementNameMaker>NamerInitialSettlementColony</playerInitialSettlementNameMaker>
 	<factionNameMaker>NamerFactionOutlander</factionNameMaker>
 	<settlementNameMaker>NamerSettlementOutlander</settlementNameMaker>
-	<geneticVariance>0</geneticVariance>
+	<geneticVariance>1</geneticVariance>
 	<startingResearchTags>
 		<li>ClassicStart</li>
 	</startingResearchTags>
@@ -34,11 +36,15 @@
 		<li>ClassicStartTechprints</li>
 	</startingTechprintsResearchTags>
 	<hairTags>
+		<li>Kurin</li>
 		<li>Urban</li>
 	</hairTags>
 	<apparelStuffFilter>
 		<thingDefs>
+			<li>DevilstrandCloth</li>
 			<li>Synthread</li>
+			<li>WoolAlpaca</li>
+			<li>WoolMuffalo</li>
 		</thingDefs>
 	</apparelStuffFilter>
 </FactionDef>

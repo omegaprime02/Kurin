@@ -12,7 +12,7 @@ But rumors that they had crashed into the perimeter fell into the pirates' ears,
 		<summary>Pioneers depart with the hope of racial reconstruction.</summary>
 		<playerFaction>
 			<def>PlayerFaction</def>
-			<factionDef>Kurin_PlayerFaction</factionDef>
+			<factionDef>Kurin_Player</factionDef>
 		</playerFaction>
 		<parts>
 		
