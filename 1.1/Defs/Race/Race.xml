@@ -34,9 +34,10 @@
                 <li>Female</li>
             </alienbodytypes>
             <aliencrowntypes>
-                <li>Average_Normal</li>
-				<li>Average_Pointy</li>
 				<li>Average_Wild</li>
+                <!--<li>Average_Normal</li>
+				<li>Average_Pointy</li>
+				<li>Average_Wild</li> -->
             </aliencrowntypes>
 			<headOffset>(0 ,-0.09)</headOffset>
             <useGenderedHeads>false</useGenderedHeads>
@@ -78,6 +79,50 @@
 				<drawnInBed>false</drawnInBed>
                 </li>
 			<!--왼쪽귀A-->
+                <li>
+                <path>Kurin/Face/Faces/Texture</path>
+                <bodyPart>Head</bodyPart>				
+                <inFrontOfBody>true</inFrontOfBody>
+                <useSkinColor>True</useSkinColor>
+				<drawSize>1</drawSize>
+                <angle>0</angle>
+				<layerOffset>-0.2700965</layerOffset>
+                <offsets>
+				    <west>
+                        <bodyTypes>
+                            <Female>(-0.4823152,0.192926)</Female>
+                        </bodyTypes>
+                        <crownTypes>
+                            <Normal_Average>(0,0)</Normal_Average>
+                        </crownTypes>
+                    </west>
+                    <south>
+                        <bodyTypes>
+                            <Female>(-0.4212219,0.2122186)</Female>
+                        </bodyTypes>
+                        <crownTypes>
+                            <Normal_Average>(0,0)</Normal_Average>
+                        </crownTypes>
+                    </south>
+                    <north>
+                        <bodyTypes>
+                            <Female>(0,0.7877813)</Female>
+                        </bodyTypes>
+                        <crownTypes>
+                            <Normal_Average>(0,0)</Normal_Average>
+                        </crownTypes>
+                    </north>
+                    <east>
+                        <bodyTypes>
+                            <Female>(-0.4823152,0.192926)</Female>
+                        </bodyTypes>
+                        <crownTypes>
+                            <Normal_Average>(0,0)</Normal_Average>
+                        </crownTypes>
+                    </east>
+                </offsets>
+                </li>
+				
                 <li>
                 <path>Kurin/Ear/Ears/DRNTFEarLA</path>
                 <bodyPart>left ear</bodyPart>				
@@ -313,7 +358,7 @@
 <!--=============================================================================================================================-->
         <graphicPaths>
             <li>
-                <head>Kurin/Face/Heads/</head>
+                <head>Kurin/Head/A/</head>
                 <body>Kurin/Body/A/</body>
             </li>
         </graphicPaths>
