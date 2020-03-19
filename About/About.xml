@@ -1,15 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ModMetaData>
-	<name>Kurin, The Three Tailed Fox</name>
+	<name>Kurin HAR Edition</name>
 	<author>MaroonToon</author>
-	<packageId>KurinTheThreeTailedFox</packageId>
+	<packageId>MaroonToon.Kurin.HAR</packageId>
 	<supportedVersions>
 		<li>1.1</li>
 	</supportedVersions>
 	<description>========== Info ==========
 
-Mod Version: 1.0.0-200309
-
-&lt;color=orange&gt;This mod adds the kurin race.&lt;/color&gt;
+kurin for Humanoid alien races
 </description>
 </ModMetaData>

@@ -75,6 +75,7 @@
                         </crownTypes>
                     </east>
                 </offsets>
+				<drawnInBed>false</drawnInBed>
                 </li>
 			<!--왼쪽귀A-->
                 <li>
