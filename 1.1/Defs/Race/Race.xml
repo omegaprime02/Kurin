@@ -38,7 +38,8 @@
 				<li>Average_Pointy</li>
 				<li>Average_Wild</li>
             </aliencrowntypes>
-			<headOffset>(0 ,-0.08)</headOffset>
+			<crownOffset>(0, -0.9)</crownOffset>
+			<headOffset>(0 ,-0.09)</headOffset>
             <useGenderedHeads>false</useGenderedHeads>
 			<useGenderedBodies>false</useGenderedBodies>
             <bodyAddons>
