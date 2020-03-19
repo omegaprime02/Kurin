@@ -175,6 +175,18 @@
 	<equippedStatOffsets>
 		<SocialImpact>0.2</SocialImpact>
 	</equippedStatOffsets>
+	<comps>
+		<li Class="Garam_AdvancedApparel.AdvancedApparelCompProp">
+			<drawColorOne Class="ColorGenerator_Options">
+				<options>
+					<li>
+						<weight>10</weight>
+						<only>(1.0, 1.0, 1.0)</only>
+					</li>
+				</options>
+			</drawColorOne>
+		</li>
+	</comps>
 </ThingDef>
 
 </Defs>

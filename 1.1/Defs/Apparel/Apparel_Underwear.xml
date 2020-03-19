@@ -2,6 +2,7 @@
 <Defs>
 
 <ThingDef Name="Kurin_UnderwearBase" ParentName="Kurin_ApparelBase" Abstract="True">
+	<defName>Kurin_Apparel_Underwear</defName>
 	<recipeMaker>
 		<researchPrerequisite>Kurin_ApparelT1</researchPrerequisite>
 	</recipeMaker>
@@ -48,6 +49,18 @@
 	<apparel>
 		<wornGraphicPath>Kurin/Apparel/Underwear/White_Underwear/Texture</wornGraphicPath>
 	</apparel>
+	<comps>
+		<li Class="Garam_AdvancedApparel.AdvancedApparelCompProp">
+			<drawColorOne Class="ColorGenerator_Options">
+				<options>
+					<li>
+						<weight>10</weight>
+						<only>(1.0, 1.0, 1.0)</only>
+					</li>
+				</options>
+			</drawColorOne>
+		</li>
+	</comps>
 </ThingDef>
 
 <ThingDef ParentName="Kurin_UnderwearBase">
@@ -60,6 +73,18 @@
 	<apparel>
 		<wornGraphicPath>Kurin/Apparel/Underwear/Black_Underwear/Texture</wornGraphicPath>
 	</apparel>
+	<comps>
+		<li Class="Garam_AdvancedApparel.AdvancedApparelCompProp">
+			<drawColorOne Class="ColorGenerator_Options">
+				<options>
+					<li>
+						<weight>10</weight>
+						<only>(1.0, 1.0, 1.0)</only>
+					</li>
+				</options>
+			</drawColorOne>
+		</li>
+	</comps>
 </ThingDef>
 
 <ThingDef ParentName="Kurin_UnderwearBase">
@@ -72,6 +97,18 @@
 	<apparel>
 		<wornGraphicPath>Kurin/Apparel/Underwear/Red_Underwear/Texture</wornGraphicPath>
 	</apparel>
+	<comps>
+		<li Class="Garam_AdvancedApparel.AdvancedApparelCompProp">
+			<drawColorOne Class="ColorGenerator_Options">
+				<options>
+					<li>
+						<weight>10</weight>
+						<only>(1.0, 1.0, 1.0)</only>
+					</li>
+				</options>
+			</drawColorOne>
+		</li>
+	</comps>
 </ThingDef>
 
 <ThingDef ParentName="Kurin_UnderwearBase">
@@ -84,6 +121,18 @@
 	<apparel>
 		<wornGraphicPath>Kurin/Apparel/Underwear/Striped_Underwear/Texture</wornGraphicPath>
 	</apparel>
+	<comps>
+		<li Class="Garam_AdvancedApparel.AdvancedApparelCompProp">
+			<drawColorOne Class="ColorGenerator_Options">
+				<options>
+					<li>
+						<weight>10</weight>
+						<only>(1.0, 1.0, 1.0)</only>
+					</li>
+				</options>
+			</drawColorOne>
+		</li>
+	</comps>
 </ThingDef>
 
 <ThingDef ParentName="Kurin_UnderwearBase">
@@ -96,6 +145,18 @@
 	<apparel>
 		<wornGraphicPath>Kurin/Apparel/Underwear/Slim_Underwear/Texture</wornGraphicPath>
 	</apparel>
+	<comps>
+		<li Class="Garam_AdvancedApparel.AdvancedApparelCompProp">
+			<drawColorOne Class="ColorGenerator_Options">
+				<options>
+					<li>
+						<weight>10</weight>
+						<only>(1.0, 1.0, 1.0)</only>
+					</li>
+				</options>
+			</drawColorOne>
+		</li>
+	</comps>
 </ThingDef>
 
 </Defs>

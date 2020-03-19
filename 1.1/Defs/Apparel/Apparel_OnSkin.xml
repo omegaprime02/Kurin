@@ -126,6 +126,18 @@
 			<li>Kurin_Citizen</li>
 		</tags>
 	</apparel>
+	<comps>
+		<li Class="Garam_AdvancedApparel.AdvancedApparelCompProp">
+			<drawColorOne Class="ColorGenerator_Options">
+				<options>
+					<li>
+						<weight>10</weight>
+						<only>(1.0, 1.0, 1.0)</only>
+					</li>
+				</options>
+			</drawColorOne>
+		</li>
+	</comps>
 	<costList>
 		<Cloth>25</Cloth>
 	</costList>
@@ -211,6 +223,18 @@
 		</bodyPartGroups>
 		<wornGraphicPath>Kurin/Apparel/OnSkin/One_Piece_Dress/Texture</wornGraphicPath>
 	</apparel>
+	<comps>
+		<li Class="Garam_AdvancedApparel.AdvancedApparelCompProp">
+			<drawColorOne Class="ColorGenerator_Options">
+				<options>
+					<li>
+						<weight>10</weight>
+						<only>(1.0, 1.0, 1.0)</only>
+					</li>
+				</options>
+			</drawColorOne>
+		</li>
+	</comps>
 	<statBases>
 		<MaxHitPoints>125</MaxHitPoints>
 		<WorkToMake>6000</WorkToMake>
@@ -295,6 +319,18 @@
 		</bodyPartGroups>
 		<wornGraphicPath>Kurin/Apparel/OnSkin/Open_Shoulder_Knit/Texture</wornGraphicPath>
 	</apparel>
+	<comps>
+		<li Class="Garam_AdvancedApparel.AdvancedApparelCompProp">
+			<drawColorOne Class="ColorGenerator_Options">
+				<options>
+					<li>
+						<weight>10</weight>
+						<only>(1.0, 1.0, 1.0)</only>
+					</li>
+				</options>
+			</drawColorOne>
+		</li>
+	</comps>
 </ThingDef>
 
 <ThingDef ParentName="Kurin_OnSkinBaseTear2">
@@ -326,6 +362,18 @@
 		</bodyPartGroups>
 		<wornGraphicPath>Kurin/Apparel/OnSkin/Hoodie/Texture</wornGraphicPath>
 	</apparel>
+	<comps>
+		<li Class="Garam_AdvancedApparel.AdvancedApparelCompProp">
+			<drawColorOne Class="ColorGenerator_Options">
+				<options>
+					<li>
+						<weight>10</weight>
+						<only>(1.0, 1.0, 1.0)</only>
+					</li>
+				</options>
+			</drawColorOne>
+		</li>
+	</comps>
 </ThingDef>
 
 <ThingDef ParentName="Kurin_OnSkinBaseTear2">
@@ -357,6 +405,18 @@
 		</bodyPartGroups>
 		<wornGraphicPath>Kurin/Apparel/OnSkin/Casual_Wear/Texture</wornGraphicPath>
 	</apparel>
+	<comps>
+		<li Class="Garam_AdvancedApparel.AdvancedApparelCompProp">
+			<drawColorOne Class="ColorGenerator_Options">
+				<options>
+					<li>
+						<weight>10</weight>
+						<only>(1.0, 1.0, 1.0)</only>
+					</li>
+				</options>
+			</drawColorOne>
+		</li>
+	</comps>
 </ThingDef>
 
 <!--================================================== Tear 3 ==================================================-->
@@ -386,6 +446,18 @@
 			<!--Royal-->
 		</tags>
 	</apparel>
+	<comps>
+		<li Class="Garam_AdvancedApparel.AdvancedApparelCompProp">
+			<drawColorOne Class="ColorGenerator_Options">
+				<options>
+					<li>
+						<weight>10</weight>
+						<only>(1.0, 1.0, 1.0)</only>
+					</li>
+				</options>
+			</drawColorOne>
+		</li>
+	</comps>
 	<costList>
 		<DevilstrandCloth>25</DevilstrandCloth>
 		<Steel>50</Steel>
@@ -440,6 +512,18 @@
 		</bodyPartGroups>
 		<wornGraphicPath>Kurin/Apparel/OnSkin/Gothic_Dress/Texture</wornGraphicPath>
 	</apparel>
+	<comps>
+		<li Class="Garam_AdvancedApparel.AdvancedApparelCompProp">
+			<drawColorOne Class="ColorGenerator_Options">
+				<options>
+					<li>
+						<weight>10</weight>
+						<only>(1.0, 1.0, 1.0)</only>
+					</li>
+				</options>
+			</drawColorOne>
+		</li>
+	</comps>
 	<equippedStatOffsets>
 		<CookSpeed>2.0</CookSpeed>
 	</equippedStatOffsets>
@@ -480,6 +564,18 @@
 		</bodyPartGroups>
 		<wornGraphicPath>Kurin/Apparel/OnSkin/Bikini_Armor/Texture</wornGraphicPath>
 	</apparel>
+	<comps>
+		<li Class="Garam_AdvancedApparel.AdvancedApparelCompProp">
+			<drawColorOne Class="ColorGenerator_Options">
+				<options>
+					<li>
+						<weight>10</weight>
+						<only>(1.0, 1.0, 1.0)</only>
+					</li>
+				</options>
+			</drawColorOne>
+		</li>
+	</comps>
 	<equippedStatOffsets>
 		<MeleeHitChance>2.0</MeleeHitChance>
 		<MeleeDodgeChance>6.0</MeleeDodgeChance>
@@ -530,6 +626,18 @@
 			<li>Kurin_Military</li>
 		</tags>
 	</apparel>
+	<comps>
+		<li Class="Garam_AdvancedApparel.AdvancedApparelCompProp">
+			<drawColorOne Class="ColorGenerator_Options">
+				<options>
+					<li>
+						<weight>10</weight>
+						<only>(1.0, 1.0, 1.0)</only>
+					</li>
+				</options>
+			</drawColorOne>
+		</li>
+	</comps>
 </ThingDef>
 
 <ThingDef ParentName="Kurin_OnSkinBaseTear3">
@@ -563,6 +671,18 @@
 		</bodyPartGroups>
 		<wornGraphicPath>Kurin/Apparel/OnSkin/Nun_Dress/Texture</wornGraphicPath>
 	</apparel>
+	<comps>
+		<li Class="Garam_AdvancedApparel.AdvancedApparelCompProp">
+			<drawColorOne Class="ColorGenerator_Options">
+				<options>
+					<li>
+						<weight>10</weight>
+						<only>(1.0, 1.0, 1.0)</only>
+					</li>
+				</options>
+			</drawColorOne>
+		</li>
+	</comps>
 	<equippedStatOffsets>
 		<MedicalTendSpeed>0.2</MedicalTendSpeed>
 		<MedicalTendQuality>0.1</MedicalTendQuality>
@@ -603,6 +723,18 @@
 		</tags>
 		<wornGraphicPath>Kurin/Apparel/OnSkin/Work_Jumpsuit/Texture</wornGraphicPath>
 	</apparel>
+	<comps>
+		<li Class="Garam_AdvancedApparel.AdvancedApparelCompProp">
+			<drawColorOne Class="ColorGenerator_Options">
+				<options>
+					<li>
+						<weight>10</weight>
+						<only>(1.0, 1.0, 1.0)</only>
+					</li>
+				</options>
+			</drawColorOne>
+		</li>
+	</comps>
 	<equippedStatOffsets>
 		<WorkSpeedGlobal>0.1</WorkSpeedGlobal>
 	</equippedStatOffsets>
@@ -645,6 +777,18 @@
 		</tags>
 		<wornGraphicPath>Kurin/Apparel/OnSkin/Traditional_Simple_Dress/Texture</wornGraphicPath>
 	</apparel>
+	<comps>
+		<li Class="Garam_AdvancedApparel.AdvancedApparelCompProp">
+			<drawColorOne Class="ColorGenerator_Options">
+				<options>
+					<li>
+						<weight>10</weight>
+						<only>(1.0, 1.0, 1.0)</only>
+					</li>
+				</options>
+			</drawColorOne>
+		</li>
+	</comps>
 </ThingDef>
 
 <ThingDef ParentName="Kurin_OnSkinBaseTear3">

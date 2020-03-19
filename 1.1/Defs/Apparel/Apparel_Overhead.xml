@@ -129,6 +129,18 @@
 		</bodyPartGroups>
 		<wornGraphicPath>Kurin/Apparel/Overhead/Casual_Hair_Pin/Texture</wornGraphicPath>
 	</apparel>
+	<comps>
+		<li Class="Garam_AdvancedApparel.AdvancedApparelCompProp">
+			<drawColorOne Class="ColorGenerator_Options">
+				<options>
+					<li>
+						<weight>10</weight>
+						<only>(1.0, 1.0, 1.0)</only>
+					</li>
+				</options>
+			</drawColorOne>
+		</li>
+	</comps>
 	<equippedStatOffsets>
 		<MentalBreakThreshold>-0.06</MentalBreakThreshold>
 	</equippedStatOffsets>
@@ -208,6 +220,18 @@
 	<equippedStatOffsets>
 		<FoodPoisonChance>-0.2</FoodPoisonChance>
 	</equippedStatOffsets>
+	<comps>
+		<li Class="Garam_AdvancedApparel.AdvancedApparelCompProp">
+			<drawColorOne Class="ColorGenerator_Options">
+				<options>
+					<li>
+						<weight>10</weight>
+						<only>(1.0, 1.0, 1.0)</only>
+					</li>
+				</options>
+			</drawColorOne>
+		</li>
+	</comps>
 </ThingDef>
 
 <ThingDef ParentName="Kurin_OverheadBaseTear3">
@@ -344,6 +368,18 @@
         <li>RoyalTier2</li>
 		</tags>
 	</apparel>
+	<comps>
+		<li Class="Garam_AdvancedApparel.AdvancedApparelCompProp">
+			<drawColorOne Class="ColorGenerator_Options">
+				<options>
+					<li>
+						<weight>10</weight>
+						<only>(1.0, 1.0, 1.0)</only>
+					</li>
+				</options>
+			</drawColorOne>
+		</li>
+	</comps>
 </ThingDef>
 
 <ThingDef ParentName="Kurin_OverheadBaseTear3">
@@ -378,6 +414,18 @@
 	<equippedStatOffsets>
 		<SocialImpact>0.1</SocialImpact>
 	</equippedStatOffsets>
+	<comps>
+		<li Class="Garam_AdvancedApparel.AdvancedApparelCompProp">
+			<drawColorOne Class="ColorGenerator_Options">
+				<options>
+					<li>
+						<weight>10</weight>
+						<only>(1.0, 1.0, 1.0)</only>
+					</li>
+				</options>
+			</drawColorOne>
+		</li>
+	</comps>
 </ThingDef>
 
 </Defs>

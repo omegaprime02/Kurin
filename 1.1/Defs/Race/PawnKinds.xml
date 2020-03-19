@@ -20,10 +20,10 @@
     <apparelMoney>
       <min>400</min>
       <max>600</max>
-    </apparelMoney>
+    </apparelMoney> <!--
     <apparelRequired>
       <li>Kurin_Underwear</li>
-    </apparelRequired>
+    </apparelRequired> -->
     <backstoryCryptosleepCommonality>0</backstoryCryptosleepCommonality>
   </PawnKindDef>
 <!--==============================================NPC기본==============================================-->
@@ -32,11 +32,11 @@
     <defaultFactionType>Kurin_Faction</defaultFactionType>
     <backstoryCryptosleepCommonality>0</backstoryCryptosleepCommonality>
 	<baseRecruitDifficulty>0.9</baseRecruitDifficulty>
-    <invNutrition>3</invNutrition>
+    <invNutrition>3</invNutrition> <!--
     <apparelRequired>
-      <li>Kurin_Apparel_Underwear</li>
-	  <li>Kurin_Apparel_Stocking</li>
-    </apparelRequired>
+      <li>Kurin_Underwear</li>
+	  <li>Kurin_Stocking</li>
+    </apparelRequired> -->
   </PawnKindDef>
 <!--==============================================NPC세부==============================================-->
 <!--시민-->
@@ -191,10 +191,10 @@
     </apparelMoney>
     <apparelTags>
       <li>Kurin_Military</li>
-    </apparelTags>
+    </apparelTags> <!--
 	<apparelRequired>
-      <li>Kurin_Onskin_Military_Uniform</li>
-    </apparelRequired>
+      <li>Kurin_OnSkin_Military_Uniform</li>
+    </apparelRequired> -->
     <apparelAllowHeadgearChance>1.0</apparelAllowHeadgearChance>
     <weaponTags>
       <li>Kurin_AssaultRifle</li>
@@ -223,10 +223,10 @@
     </apparelMoney>
     <apparelTags>
       <li>Kurin_Military</li>
-    </apparelTags>
+    </apparelTags> <!--
 	<apparelRequired>
       <li>Kurin_Onskin_Military_Uniform</li>
-    </apparelRequired>
+    </apparelRequired> -->
     <apparelAllowHeadgearChance>1.0</apparelAllowHeadgearChance>
     <weaponTags>
       <li>Kurin_AssaultRifle</li>
@@ -255,10 +255,10 @@
     </apparelMoney>
     <apparelTags>
       <li>Kurin_Military</li>
-    </apparelTags>
+    </apparelTags> <!--
 	<apparelRequired>
       <li>Kurin_Onskin_Military_Uniform</li>
-    </apparelRequired>
+    </apparelRequired> -->
     <apparelAllowHeadgearChance>1.0</apparelAllowHeadgearChance>
     <weaponTags>
       <li>SniperRifle</li>

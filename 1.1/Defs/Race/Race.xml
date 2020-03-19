@@ -248,7 +248,7 @@
                     </east>
                 </offsets>
                 </li>
-            </bodyAddons>
+            </bodyAddons> <!--
             <alienhaircolorgen Class="ColorGenerator_Options">
                 <options>
                     <li>
@@ -268,7 +268,7 @@
                         <only>RGBA(0.79,0.86,0.96,1)</only>
                     </li>
                 </options>
-            </alienhaircolorgen>
+            </alienhaircolorgen> -->
             <alienskincolorgen Class="ColorGenerator_Options">
                 <options>
                     <li>
@@ -406,7 +406,7 @@
 	  <ButcheryMechanoidEfficiency>1.1</ButcheryMechanoidEfficiency> <!--메카노이드 분해 효율-->
 	  <ButcheryMechanoidSpeed>1.1</ButcheryMechanoidSpeed> <!--메카노이드 분해 속도-->
 	  <SmeltingSpeed>1.1</SmeltingSpeed> <!--금속 제련 속도-->
-	  <SmithingSpeed>1.1</SmithingSpeed> <!--제련 속도-->
+	  <!--<SmithingSpeed>1.1</SmithingSpeed> <!--제련 속도-->
 	  <!--<TailoringSpeed>1.1</TailoringSpeed>--> <!--재단 속도-->
 	<!--조리-->
 	  <ButcheryFleshEfficiency>1.05</ButcheryFleshEfficiency> <!--도축 효율-->
