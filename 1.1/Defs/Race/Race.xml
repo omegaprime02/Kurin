@@ -34,12 +34,11 @@
                 <li>Female</li>
             </alienbodytypes>
             <aliencrowntypes>
-				<li>Average_Wild</li>
-                <!--<li>Average_Normal</li>
+                <li>Average_Normal</li>
 				<li>Average_Pointy</li>
-				<li>Average_Wild</li> -->
+				<li>Average_Wild</li>
             </aliencrowntypes>
-			<headOffset>(0 ,-0.09)</headOffset>
+			<headOffset>(0 ,0)</headOffset>
             <useGenderedHeads>false</useGenderedHeads>
 			<useGenderedBodies>false</useGenderedBodies>
             <bodyAddons>
@@ -61,7 +60,7 @@
                     </south>
                     <north>
                         <bodyTypes>
-                            <Female>(0,0.5273312)</Female>
+                            <Female>(0,0.6173633)</Female>
                         </bodyTypes>
                         <crownTypes>
                             <Normal_Average>(0,0)</Normal_Average>
@@ -69,7 +68,7 @@
                     </north>
                     <east>
                         <bodyTypes>
-                            <Female>(-0.3944052,0.199357)</Female>
+                            <Female>(-0.4136978,0.347267)</Female>
                         </bodyTypes>
                         <crownTypes>
                             <Normal_Average>(0,0)</Normal_Average>
@@ -90,7 +89,7 @@
                 <offsets>
 				    <west>
                         <bodyTypes>
-                            <Female>(-0.4823152,0.192926)</Female>
+                            <Female>(-0.4823152,0.2829581)</Female>
                         </bodyTypes>
                         <crownTypes>
                             <Normal_Average>(0,0)</Normal_Average>
@@ -98,7 +97,7 @@
                     </west>
                     <south>
                         <bodyTypes>
-                            <Female>(-0.4212219,0.2122186)</Female>
+                            <Female>(-0.4212219,0.3022507)</Female>
                         </bodyTypes>
                         <crownTypes>
                             <Normal_Average>(0,0)</Normal_Average>
@@ -114,7 +113,7 @@
                     </north>
                     <east>
                         <bodyTypes>
-                            <Female>(-0.4823152,0.192926)</Female>
+                            <Female>(-0.4823152,0.2829581)</Female>
                         </bodyTypes>
                         <crownTypes>
                             <Normal_Average>(0,0)</Normal_Average>
@@ -133,7 +132,7 @@
                 <offsets>
 				    <west>
                         <bodyTypes>
-                            <Female>(-0.540193,0.4180064)</Female>
+                            <Female>(-0.540193,0.5401928)</Female>
                         </bodyTypes>
                         <crownTypes>
                             <Normal_Average>(0,0)</Normal_Average>
@@ -141,7 +140,7 @@
                     </west>
                     <south>
                         <bodyTypes>
-                            <Female>(-0.4212219,0.4308681)</Female>
+                            <Female>(-0.4212219,0.533762)</Female>
                         </bodyTypes>
                         <crownTypes>
                             <Normal_Average>(0,0)</Normal_Average>
@@ -149,7 +148,7 @@
                     </south>
                     <north>
                         <bodyTypes>
-                            <Female>(0,0.7877813)</Female>
+                            <Female>(0,0.85209)</Female>
                         </bodyTypes>
                         <crownTypes>
                             <Normal_Average>(0,0)</Normal_Average>
@@ -157,7 +156,7 @@
                     </north>
                     <east>
                         <bodyTypes>
-                            <Female>(-0.540193,0.4180064)</Female>
+                            <Female>(-0.540193,0.5401928)</Female>
                         </bodyTypes>
                         <crownTypes>
                             <Normal_Average>(0,0)</Normal_Average>
@@ -176,7 +175,7 @@
                 <offsets>
 					<west>
                         <bodyTypes>
-                            <Female>(-0.540193,0.4180064)</Female>
+                            <Female>(-0.540193,0.5401928)</Female>
                         </bodyTypes>
                         <crownTypes>
                             <Normal_Average>(0,0)</Normal_Average>
@@ -184,7 +183,7 @@
                     </west>
                     <south>
                         <bodyTypes>
-                            <Female>(-0.4212219,0.4308681)</Female>
+                            <Female>(-0.4212219,0.533762)</Female>
                         </bodyTypes>
                         <crownTypes>
                             <Normal_Average>(0,0)</Normal_Average>
@@ -192,7 +191,7 @@
                     </south>
                     <north>
                         <bodyTypes>
-                            <Female>(0,0.7877813)</Female>
+                            <Female>(0,0.85209)</Female>
                         </bodyTypes>
                         <crownTypes>
                             <Normal_Average>(0,0)</Normal_Average>
@@ -200,7 +199,7 @@
                     </north>
                     <east>
                         <bodyTypes>
-                            <Female>(-0.540193,0.4180064)</Female>
+                            <Female>(-0.540193,0.5401928)</Female>
                         </bodyTypes>
                         <crownTypes>
                             <Normal_Average>(0,0)</Normal_Average>
@@ -219,7 +218,7 @@
                 <offsets>
 					<west>
                         <bodyTypes>
-                            <Female>(-0.540193,0.4180064)</Female>
+                            <Female>(-0.540193,0.5401928)</Female>
                         </bodyTypes>
                         <crownTypes>
                             <Normal_Average>(0,0)</Normal_Average>
@@ -227,7 +226,7 @@
                     </west>
                     <south>
                         <bodyTypes>
-                            <Female>(-0.4212219,0.4308681)</Female>
+                            <Female>(-0.4212219,0.533762)</Female>
                         </bodyTypes>
                         <crownTypes>
                             <Normal_Average>(0,0)</Normal_Average>
@@ -235,7 +234,7 @@
                     </south>
                     <north>
                         <bodyTypes>
-                            <Female>(0,0.7877813)</Female>
+                            <Female>(0,0.85209)</Female>
                         </bodyTypes>
                         <crownTypes>
                             <Normal_Average>(0,0)</Normal_Average>
@@ -243,7 +242,7 @@
                     </north>
                     <east>
                         <bodyTypes>
-                            <Female>(-0.540193,0.4180064)</Female>
+                            <Female>(-0.540193,0.5401928)</Female>
                         </bodyTypes>
                         <crownTypes>
                             <Normal_Average>(0,0)</Normal_Average>
@@ -270,7 +269,7 @@
                     </west>
                     <south>
                         <bodyTypes>
-                            <Female>(-0.4212219,0.4308681)</Female>
+                            <Female>(-0.4212219,0.533762)</Female>
                         </bodyTypes>
                         <crownTypes>
                             <Normal_Average>(0,0)</Normal_Average>
@@ -278,7 +277,7 @@
                     </south>
                     <north>
                         <bodyTypes>
-                            <Female>(0,0.7877813)</Female>
+                            <Female>(0,0.85209)</Female>
                         </bodyTypes>
                         <crownTypes>
                             <Normal_Average>(0,0)</Normal_Average>
@@ -286,7 +285,7 @@
                     </north>
                     <east>
                         <bodyTypes>
-                            <Female>(-0.540193,0.4180064)</Female>
+                            <Female>(-0.540193,0.5401928)</Female>
                         </bodyTypes>
                         <crownTypes>
                             <Normal_Average>(0,0)</Normal_Average>
@@ -316,8 +315,12 @@
                 </options>
             </alienhaircolorgen> -->
             <alienskincolorgen Class="ColorGenerator_Options">
-                <options>
+               <options>
                     <li>
+                        <weight>10</weight>
+                        <only>RGBA(1, 1, 1, 1.000)</only>
+                    </li>
+                    <!--<li>
                         <weight>10</weight>
                         <only>RGBA(0.949, 0.929, 0.878, 1.000)</only>
                     </li>
@@ -344,7 +347,7 @@
                     <li>
                         <weight>5</weight>
                         <only>RGBA(0.894, 0.620, 0.353, 1.000)</only>
-                    </li>
+                    </li> -->
 					<!--
                     <li>
                         <weight>5</weight>

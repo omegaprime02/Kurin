@@ -60,7 +60,12 @@
 		<StuffEffectMultiplierInsulation_Heat>0.10</StuffEffectMultiplierInsulation_Heat>
 	</statBases>
 	<comps>
-		<li Class="Garam_AdvancedApparel.AdvancedApparelCompProp"/>
+		<li Class="Garam_AdvancedApparel.AdvancedApparelCompProp">
+			<randomTextureWhenWorn>
+				<li>Kurin/Apparel/OnSkin/Shirt/Texture</li>
+				<li>Kurin/Apparel/OnSkin/Shirt/Texture1</li>
+			</randomTextureWhenWorn>
+		</li>
 	</comps>
 </ThingDef>
 
@@ -372,6 +377,10 @@
 					</li>
 				</options>
 			</drawColorOne>
+			<randomTextureWhenWorn>
+				<li>Kurin/Apparel/OnSkin/Hoodie/Texture</li>
+				<li>Kurin/Apparel/OnSkin/Hoodie/Texture1</li>
+			</randomTextureWhenWorn>
 		</li>
 	</comps>
 </ThingDef>
