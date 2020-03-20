@@ -826,6 +826,18 @@
 		<SocialImpact>0.2</SocialImpact>
 		<TradePriceImprovement>0.1</TradePriceImprovement>
 	</equippedStatOffsets>
+	<comps>
+		<li Class="Garam_AdvancedApparel.AdvancedApparelCompProp">
+			<drawColorOne Class="ColorGenerator_Options">
+				<options>
+					<li>
+						<weight>10</weight>
+						<only>(1.0, 1.0, 1.0)</only>
+					</li>
+				</options>
+			</drawColorOne>
+		</li>
+	</comps>
 	<apparel>
 		<bodyPartGroups>
 			<li>Torso</li>
@@ -865,6 +877,18 @@
 		<SocialImpact>0.2</SocialImpact>
 		<TradePriceImprovement>0.1</TradePriceImprovement>
 	</equippedStatOffsets>
+	<comps>
+		<li Class="Garam_AdvancedApparel.AdvancedApparelCompProp">
+			<drawColorOne Class="ColorGenerator_Options">
+				<options>
+					<li>
+						<weight>10</weight>
+						<only>(1.0, 1.0, 1.0)</only>
+					</li>
+				</options>
+			</drawColorOne>
+		</li>
+	</comps>
 	<apparel>
 		<bodyPartGroups>
 			<li>Torso</li>
@@ -909,6 +933,18 @@
 		</bodyPartGroups>
 		<wornGraphicPath>Kurin/Apparel/OnSkin/Cute_Dress/Texture</wornGraphicPath>
 	</apparel>
+	<comps>
+		<li Class="Garam_AdvancedApparel.AdvancedApparelCompProp">
+			<drawColorOne Class="ColorGenerator_Options">
+				<options>
+					<li>
+						<weight>10</weight>
+						<only>(1.0, 1.0, 1.0)</only>
+					</li>
+				</options>
+			</drawColorOne>
+		</li>
+	</comps>
 	<equippedStatOffsets>
 		<SocialImpact>0.2</SocialImpact>
 		<TameAnimalChance>0.2</TameAnimalChance>
@@ -945,6 +981,18 @@
 		</bodyPartGroups>
 		<wornGraphicPath>Kurin/Apparel/OnSkin/Seductive_White_Dress/Texture</wornGraphicPath>
 	</apparel>
+	<comps>
+		<li Class="Garam_AdvancedApparel.AdvancedApparelCompProp">
+			<drawColorOne Class="ColorGenerator_Options">
+				<options>
+					<li>
+						<weight>10</weight>
+						<only>(1.0, 1.0, 1.0)</only>
+					</li>
+				</options>
+			</drawColorOne>
+		</li>
+	</comps>
 	<equippedStatOffsets>
 		<SocialImpact>0.2</SocialImpact>
 		<NegotiationAbility>0.2</NegotiationAbility>
@@ -974,6 +1022,18 @@
 		<StuffEffectMultiplierInsulation_Heat>0.30</StuffEffectMultiplierInsulation_Heat>
 	</statBases>
 	<apparel>
+	<comps>
+		<li Class="Garam_AdvancedApparel.AdvancedApparelCompProp">
+			<drawColorOne Class="ColorGenerator_Options">
+				<options>
+					<li>
+						<weight>10</weight>
+						<only>(1.0, 1.0, 1.0)</only>
+					</li>
+				</options>
+			</drawColorOne>
+		</li>
+	</comps>
 		<bodyPartGroups>
 			<li>Torso</li>
 			<li>Legs</li>
