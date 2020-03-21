@@ -1021,7 +1021,6 @@
 		<StuffEffectMultiplierInsulation_Cold>0.20</StuffEffectMultiplierInsulation_Cold>
 		<StuffEffectMultiplierInsulation_Heat>0.30</StuffEffectMultiplierInsulation_Heat>
 	</statBases>
-	<apparel>
 	<comps>
 		<li Class="Garam_AdvancedApparel.AdvancedApparelCompProp">
 			<drawColorOne Class="ColorGenerator_Options">
@@ -1034,6 +1033,7 @@
 			</drawColorOne>
 		</li>
 	</comps>
+	<apparel>
 		<bodyPartGroups>
 			<li>Torso</li>
 			<li>Legs</li>
