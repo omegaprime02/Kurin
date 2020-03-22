@@ -6,8 +6,27 @@
 	<supportedVersions>
 		<li>1.1</li>
 	</supportedVersions>
+	<modDependencies>
+		<li>
+			<packageId>Dalrae.GaramAdvancedApparel</packageId>
+			<displayName>Garam Advanced Apparel</displayName>
+			<steamWorkshopUrl>steam://url/CommunityFilePage/2013223606</steamWorkshopUrl>
+		</li>
+		<li>
+			<packageId>erdelf.HumanoidAlienRaces</packageId>
+			<displayName>Humanoid Alien Race Framework</displayName>
+			<steamWorkshopUrl>steam://url/CommunityFilePage/839005762</steamWorkshopUrl>
+		</li>
+	</modDependencies>
+	<loadAfter>
+		<li>Dalrae.GaramAdvancedApparel</li>
+		<li>erdelf.HumanoidAlienRaces</li>
+	</loadAfter>
+	<incompatibleWith>
+		<li>Dalrae.GaramRaceAddon</li>
+	</incompatibleWith>
 	<description>========== Info ==========
-
-kurin for Humanoid alien races
-</description>
+	kurin for Humanoid alien races
+	Do not use with lewd/fixed Kurin or Garam race addon
+	</description>
 </ModMetaData>
