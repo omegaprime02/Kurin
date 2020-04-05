@@ -425,9 +425,9 @@
 				<li>Apparel_ShieldBelt</li>
 				<li>SmokepopBelt</li>
 			</whiteApparelList>
-            <onlyUseRaceRestrictedApparel>true</onlyUseRaceRestrictedApparel>
+            <onlyUseRaceRestrictedApparel>false</onlyUseRaceRestrictedApparel>
             <buildingList>
-                <!--<li>Kurin_NooseTrap</li>-->
+                <li>DRNTF_NooseTrap</li>
 				<li>Kurin_Electric_Tailoring_Bench</li>
             </buildingList>
         </raceRestriction>

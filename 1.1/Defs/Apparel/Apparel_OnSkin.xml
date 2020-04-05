@@ -802,7 +802,7 @@
 
 <ThingDef ParentName="Kurin_OnSkinBaseTear3">
 	<defName>Kurin_OnSkin_Traditional_Fancy_Dress</defName>
-	<label>kurin tranitionnal fancy dress</label>
+	<label>kurin traditionnal fancy dress</label>
 	<description>푸른색의 화려한 치마와 포인트가 들어간 흰색의 셔츠가 인상적인 쿠린들의 전통의상입니다.</description>
 	<graphicData>
 		<texPath>Kurin/Apparel/OnSkin/Traditional_Fancy_Dress/Texture</texPath>

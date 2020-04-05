@@ -355,7 +355,7 @@
 	<defName>Kurin_BackstoryChild_13</defName>
 	<title>Kurin City Kid</title>
 	<titleShort>City Kid</titleShort>
-	<baseDescription>[PAWN_namedef] grew up in downtown of the Kurin metropolis, with plenty of things to do, such as hobby, entertainment, VR games and so on. But most of all, [PAWN_namedef]'s favorite thing to do was traveling with her family.</baseDescription>
+	<baseDescription>[PAWN_nameDef] grew up in downtown of the Kurin metropolis, with plenty of things to do, such as hobby, entertainment, VR games and so on. But most of all, [PAWN_nameDef]'s favorite thing to do was traveling with her family.</baseDescription>
 	<slot>Childhood</slot>
 	<skillGains>
 		<li>

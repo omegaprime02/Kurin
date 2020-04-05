@@ -20,7 +20,7 @@
 		<RangedWeapon_Cooldown>1.0</RangedWeapon_Cooldown>
 	</statBases>
 	<weaponTags>
-		<li>Kurin_Gun_Assault_Rifle</li>
+		<li>Kurin_Rifle</li>
 	</weaponTags>
 	<costList>
 		<Steel>75</Steel>
@@ -86,7 +86,7 @@
 		<RangedWeapon_Cooldown>1.0</RangedWeapon_Cooldown>
 	</statBases>
 	<weaponTags>
-		<li>Kurin_Gun_Sniper_Rifle</li>
+		<li>Kurin_Sniper_Rifle</li>
 	</weaponTags>
 	<costList>
 		<Steel>75</Steel>
@@ -147,7 +147,7 @@
 </ThingDef>
 
 <SoundDef>
-	<defName>Kurin_Shot_Tactical_Rifle</defName>  
+	<defName>Kurin_Rifle</defName>  
 	<context>MapOnly</context>  
 	<maxSimultaneous>1</maxSimultaneous>  
 	<subSounds>

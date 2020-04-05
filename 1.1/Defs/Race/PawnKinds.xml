@@ -53,6 +53,9 @@
     <apparelTags>
       <li>Kurin_Citizen</li>
     </apparelTags>
+    <weaponTags>
+      <li>Kurin_Rifle</li>
+    </weaponTags>
     <apparelAllowHeadgearChance>0.2</apparelAllowHeadgearChance>
     <backstoryCategories>
       <li>Kurin_Citizen</li>
@@ -87,7 +90,7 @@
     </apparelTags>
     <apparelAllowHeadgearChance>0.2</apparelAllowHeadgearChance>
     <weaponTags>
-      <li>SimpleGun</li>
+      <li>Kurin_Rifle</li>
     </weaponTags>
     <weaponMoney>
       <min>300</min>
@@ -125,6 +128,9 @@
     <apparelTags>
       <li>Kurin_Trader</li>
     </apparelTags>
+    <weaponTags>
+      <li>Kurin_Rifle</li>
+    </weaponTags>
     <apparelAllowHeadgearChance>0.4</apparelAllowHeadgearChance>
     <backstoryCategories>
       <li>Kurin_Trader</li>
@@ -155,6 +161,9 @@
       <min>600</min>
       <max>800</max>
     </apparelMoney>
+    <weaponTags>
+      <li>Kurin_Rifle</li>
+    </weaponTags>
     <apparelTags>
       <li>Kurin_Citizen</li>
     </apparelTags>
@@ -197,7 +206,7 @@
     </apparelRequired> -->
     <apparelAllowHeadgearChance>1.0</apparelAllowHeadgearChance>
     <weaponTags>
-      <li>Kurin_AssaultRifle</li>
+      <li>Kurin_Rifle</li>
     </weaponTags>
     <weaponMoney>
       <min>600</min>
@@ -229,7 +238,7 @@
     </apparelRequired> -->
     <apparelAllowHeadgearChance>1.0</apparelAllowHeadgearChance>
     <weaponTags>
-      <li>Kurin_AssaultRifle</li>
+      <li>Kurin_Rifle</li>
     </weaponTags>
     <weaponMoney>
       <min>600</min>
@@ -261,7 +270,7 @@
     </apparelRequired> -->
     <apparelAllowHeadgearChance>1.0</apparelAllowHeadgearChance>
     <weaponTags>
-      <li>SniperRifle</li>
+      <li>Kurin_Sniper_Rifle</li>
     </weaponTags>
     <weaponMoney>
       <min>600</min>
