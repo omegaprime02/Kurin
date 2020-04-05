@@ -147,7 +147,7 @@
 </ThingDef>
 
 <SoundDef>
-	<defName>Kurin_Rifle</defName>  
+	<defName>Kurin_Shot_Tactical_Rifle</defName>  
 	<context>MapOnly</context>  
 	<maxSimultaneous>1</maxSimultaneous>  
 	<subSounds>
