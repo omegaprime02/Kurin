@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
-<Garam_RaceAddon.RaceAddonPawnKindDef>
-	<defName>Kurin_SpaceRefugee</defName>
+<PawnKindDef>
+	<defName>Kurin_SpaceRefugee_Clothed</defName>
 	<label>kurin space refugee</label>
     <race>Kurin</race>
     <combatPower>80</combatPower>
@@ -22,11 +22,11 @@
 	<apparelMoney>2400~4800</apparelMoney>
 	<pawnKindDefReplacement>
 		<li>
-			<originalPawnKindDef>SpaceRefugee</originalPawnKindDef>
+			<originalPawnKindDef>SpaceRefugee_Clothed</originalPawnKindDef>
 			<originalWeight>10</originalWeight>
 			<weight>2</weight>
 		</li>
 	</pawnKindDefReplacement>
 	<onlyUseThisBackstoryCategoryes>true</onlyUseThisBackstoryCategoryes>
-</Garam_RaceAddon.RaceAddonPawnKindDef>
+</PawnKindDef>
 </Defs>
