@@ -129,6 +129,7 @@
 				<Kurin_Elite>6</Kurin_Elite>
 				<Kurin_Soldier>2</Kurin_Soldier>
 				<Kurin_EliteSoldier>1</Kurin_EliteSoldier>
+				<Kurin_Nymph>1</Kurin_Nymph>
 			</options>
 		</li>
 		<li>
@@ -146,6 +147,7 @@
 				<Kurin_Vigilante>8</Kurin_Vigilante>
 				<Kurin_Soldier>6</Kurin_Soldier>
 				<Kurin_EliteSoldier>2</Kurin_EliteSoldier>
+				<Kurin_Nymph>1</Kurin_Nymph>
 			</guards>
 		</li>
 		<li>
@@ -155,6 +157,7 @@
 				<Kurin_Soldier>12</Kurin_Soldier>
 				<Kurin_EliteSoldier>8</Kurin_EliteSoldier>
 				<Kurin_Sniper>4</Kurin_Sniper>
+				<Kurin_Nymph>1</Kurin_Nymph>
 			</options>
 		</li>
 	</pawnGroupMakers>
@@ -166,8 +169,7 @@
 	<label>Battle Foxes</label>
 	<description>Kurin who see combat as the only way to protecting their people.</description>
 	<colorSpectrum>
-      <li>(0.85, 0, 0)</li>
-      <li>(1, 0.1, 0.1)</li>
+      <li>(216, 89, 5)</li>
 	</colorSpectrum>
 	<startingGoodwill>-80</startingGoodwill>
 	<naturalColonyGoodwill>-100~-80</naturalColonyGoodwill>
@@ -228,10 +230,10 @@
 		<li>
 			<kindDef>Combat</kindDef>
 			<options>
-				<Kurin_Soldier>4</Kurin_Soldier>
-				<Kurin_EliteSoldier>2</Kurin_EliteSoldier>
-				<Kurin_Sniper>1</Kurin_Sniper>
-				<Kurin_Elite>1</Kurin_Elite>
+				<Kurin_Soldier>8</Kurin_Soldier>
+				<Kurin_EliteSoldier>4</Kurin_EliteSoldier>
+				<Kurin_Sniper>2</Kurin_Sniper>
+				<Kurin_Warmonger>1</Kurin_Warmonger>
 			</options>
 		</li>
 		<li>
@@ -241,6 +243,7 @@
 				<Kurin_Elite>6</Kurin_Elite>
 				<Kurin_Soldier>10</Kurin_Soldier>
 				<Kurin_EliteSoldier>1</Kurin_EliteSoldier>
+				<Kurin_Nymph>1</Kurin_Nymph>
 			</options>
 		</li>
 		<li>

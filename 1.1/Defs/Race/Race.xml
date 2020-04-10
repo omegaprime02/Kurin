@@ -293,27 +293,65 @@
                     </east>
                 </offsets>
                 </li>
-            </bodyAddons> <!--
+            </bodyAddons>
             <alienhaircolorgen Class="ColorGenerator_Options">
                 <options>
+				<!--Common-->
                     <li>
-                        <weight>5</weight>
-                        <only>RGBA(0.51,0.77,0.86,1)</only>
+                        <weight>10</weight> <!-- Name=(Mango Tango) -->
+                        <only>RGBA(0.84,0.50,0.02,1)</only> <!-- RGB=(214.2,127.5,5.1) #D67F05 -->
                     </li>
                     <li>
-                        <weight>5</weight>
-                        <only>RGBA(0.70,0.65,0.82,1)</only>
+                        <weight>10</weight> <!-- Name=(Tenne (Tawny)) -->
+                        <only>RGBA(0.83,0.36,0.03,1)</only> <!-- RGB=(211,93,8) #D35D08 -->
                     </li>
                     <li>
-                        <weight>5</weight>
-                        <only>RGBA(0.61,0.75,0.91,1)</only>
+                        <weight>10</weight> <!-- Name=(Russet) -->
+                        <only>RGBA(0.48,0.25,0.09,1)</only> <!-- RGB=(122,63,22) #7A3F16 -->
                     </li>
                     <li>
-                        <weight>5</weight>
-                        <only>RGBA(0.79,0.86,0.96,1)</only>
+                        <weight>10</weight> <!-- Name=(Fuel Yellow) -->
+                        <only>RGBA(0.79,0.60,0.19,1)</only> <!-- RGB=(201,152,48) #C99830 -->
+                    </li>
+                    <li>
+                        <weight>10</weight> <!-- Name=(Chocolate) -->
+                        <only>RGBA(0.80,0.42,0.11,1)</only> <!-- RGB=(204,107,28) #CC6B1C -->
+                    </li>
+                    <li>
+                        <weight>10</weight> <!-- Name=(Metalic Gold) -->
+                        <only>RGBA(0.84,0.69,0.27,1)</only> <!-- RGB=(214,175,70) #D6AF46 -->
+                    </li>
+                    <li>
+                        <weight>10</weight> <!-- Name=(Raw Umber) -->
+                        <only>RGBA(0.43,0.27,0.06,1)</only> <!-- RGB=(109,68,15) #6D440F -->
+                    </li>
+				<!--Uncommon-->
+                    <li>
+                        <weight>5</weight> <!-- Name=(Vermilion) -->
+                        <only>RGBA(0.95,0.30,0.01,1)</only> <!-- RGB=(242,76,4) #F24C04 -->
+                    </li>
+                    <li>
+                        <weight>5</weight> <!-- Name=(Charm) -->
+                        <only>RGBA(0.80,0.39,0.49,1)</only> <!-- RGB=(204,99,124) #CC637C -->
+                    </li>
+                    <li>
+                        <weight>5</weight> <!-- Name=(Deep Cerise) -->
+                        <only>RGBA(0.87,0.23,0.49,1)</only> <!-- RGB=(223,58,124) #DF3A7C -->
+                    </li>
+                    <li>
+                        <weight>5</weight> <!-- Name=(Royal Purple) -->
+                        <only>RGBA(0.42,0.23,0.59,1)</only> <!-- RGB=(108,58,151) #6C3A97 -->
+                    </li>
+                    <li>
+                        <weight>5</weight> <!-- Name=(Asparagus) -->
+                        <only>RGBA(0.46,0.57,0.32,1)</only> <!-- RGB=(118,146,82) #769252 -->
+                    </li>
+                    <li>
+                        <weight>5</weight> <!-- Name=(Downy) -->
+                        <only>RGBA(0.46,0.86,0.78,1)</only> <!-- RGB=(118,219,200) #76DBC8 -->
                     </li>
                 </options>
-            </alienhaircolorgen> -->
+            </alienhaircolorgen>
             <alienskincolorgen Class="ColorGenerator_Options">
                <options>
                     <li>

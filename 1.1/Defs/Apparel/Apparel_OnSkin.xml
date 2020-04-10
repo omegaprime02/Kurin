@@ -183,6 +183,9 @@
 		<StuffEffectMultiplierInsulation_Heat>0.40</StuffEffectMultiplierInsulation_Heat>
 	</statBases>
 	<apparel>
+		<tags>
+			<li>Kurin_Nymph</li>
+		</tags>
 		<bodyPartGroups>
 			<li>Torso</li>
 		</bodyPartGroups>
