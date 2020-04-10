@@ -38,6 +38,7 @@
 		<li>Violent</li>
 	</workDisables>
 	<spawnCategories>
+		<li>Kurin_Nymph</li>
 		<li>Kurin_Citizen</li>
 		<li>Kurin_Trader</li>
 	</spawnCategories>
@@ -60,6 +61,7 @@
 		</li>
 	</skillGains>
 	<spawnCategories>
+		<li>Kurin_Nymph</li>
 		<li>Kurin_Citizen</li>
 		<li>Kurin_Trader</li>
 	</spawnCategories>
@@ -86,9 +88,11 @@
 		</li>
 	</skillGains>
 	<spawnCategories>
+		<li>Kurin_Nymph</li>
 		<li>Kurin_Citizen</li>
 		<li>Kurin_Army</li>
 		<li>Kurin_Trader</li>
+		<li>Kurin_Warmonger</li>
 	</spawnCategories>
 </AlienRace.BackstoryDef>
 <!--따돌려진 아이-->
@@ -113,6 +117,7 @@
 		</li>
 	</skillGains>
 	<spawnCategories>
+		<li>Kurin_Nymph</li>
 		<li>Kurin_Citizen</li>
 		<li>Kurin_Elite</li>
 	</spawnCategories>
@@ -141,6 +146,7 @@
 	<spawnCategories>
 		<li>Kurin_Citizen</li>
 		<li>Kurin_Army</li>
+		<li>Kurin_Warmonger</li>
 	</spawnCategories>
 </AlienRace.BackstoryDef>
 <!--빈민가 고아-->
@@ -173,8 +179,10 @@
 		</li>
 	</skillGains>
 	<spawnCategories>
+		<li>Kurin_Nymph</li>
 		<li>Kurin_Citizen</li>
 		<li>Kurin_Army</li>
+		<li>Kurin_Warmonger</li>
 		<li>Kurin_Trader</li>
 	</spawnCategories>
 </AlienRace.BackstoryDef>
@@ -202,6 +210,7 @@
 	<spawnCategories>
 		<li>Kurin_Citizen</li>
 		<li>Kurin_Army</li>
+		<li>Kurin_Warmonger</li>
 	</spawnCategories>
 </AlienRace.BackstoryDef>
 <!--동물원 아르바이터-->
@@ -226,6 +235,7 @@
 		</li>
 	</skillGains>
 	<spawnCategories>
+		<li>Kurin_Nymph</li>
 		<li>Kurin_Citizen</li>
 		<li>Kurin_Trader</li>
 		<li>Kurin_Elite</li>
@@ -247,6 +257,7 @@
 	<spawnCategories>
 		<li>Kurin_Citizen</li>
 		<li>Kurin_Army</li>
+		<li>Kurin_Warmonger</li>
 	</spawnCategories>
 </AlienRace.BackstoryDef>
 <!--평범한 아이-->
@@ -271,8 +282,10 @@
 		</li>
 	</skillGains>
 	<spawnCategories>
+		<li>Kurin_Nymph</li>
 		<li>Kurin_Citizen</li>
 		<li>Kurin_Army</li>
+		<li>Kurin_Warmonger</li>
 		<li>Kurin_Trader</li>
 		<li>Kurin_Elite</li>
 	</spawnCategories>
@@ -313,6 +326,7 @@
 	<spawnCategories>
 		<li>Kurin_Citizen</li>
 		<li>Kurin_Army</li>
+		<li>Kurin_Warmonger</li>
 	</spawnCategories>
 </AlienRace.BackstoryDef>
 <!--시골 아이-->
@@ -345,8 +359,10 @@
 		</li>
 	</skillGains>
 	<spawnCategories>
+		<li>Kurin_Nymph</li>
 		<li>Kurin_Citizen</li>
 		<li>Kurin_Army</li>
+		<li>Kurin_Warmonger</li>
 		<li>Kurin_Trader</li>
 	</spawnCategories>
 </AlienRace.BackstoryDef>
@@ -384,8 +400,10 @@
 		</li>
 	</skillGains>
 	<spawnCategories>
+		<li>Kurin_Nymph</li>
 		<li>Kurin_Citizen</li>
 		<li>Kurin_Army</li>
+		<li>Kurin_Warmonger</li>
 		<li>Kurin_Trader</li>
 		<li>Kurin_Elite</li>
 	</spawnCategories>
@@ -447,6 +465,7 @@
 		</li>
 	</forcedTraits>	
 	<spawnCategories>
+		<li>Kurin_Nymph</li>
 		<li>Kurin_Citizen</li>
 		<li>Kurin_Trader</li>
 		<li>Kurin_Elite</li>
@@ -477,6 +496,7 @@
 		<li>Violent</li>
 	</workDisables>
 	<spawnCategories>
+		<li>Kurin_Nymph</li>
 		<li>Kurin_Citizen</li>
 	</spawnCategories>
 </AlienRace.BackstoryDef>
@@ -508,6 +528,7 @@
 		</li>
 	</forcedTraits>
 	<spawnCategories>
+		<li>Kurin_Nymph</li>
 		<li>Kurin_Citizen</li>
 		<li>Kurin_Trader</li>
 		<li>Kurin_Elite</li>
@@ -535,8 +556,10 @@
 	</li>
 	</skillGains>
 	<spawnCategories>
+		<li>Kurin_Nymph</li>
 		<li>Kurin_Citizen</li>
 		<li>Kurin_Army</li>
+		<li>Kurin_Warmonger</li>
 		<li>Kurin_Trader</li>
 		<li>Kurin_Elite</li>
 	</spawnCategories>
@@ -563,6 +586,7 @@
 	</li>
 	</skillGains>
 	<spawnCategories>
+		<li>Kurin_Nymph</li>
 		<li>Kurin_Citizen</li>
 		<li>Kurin_Trader</li>
 	</spawnCategories>
@@ -589,6 +613,7 @@
 	</li>
 	</skillGains>
 	<spawnCategories>
+		<li>Kurin_Nymph</li>
 		<li>Kurin_Citizen</li>
 		<li>Kurin_Trader</li>
 	</spawnCategories>
@@ -611,8 +636,10 @@
 	</li>
 	</skillGains>
 	<spawnCategories>
+		<li>Kurin_Nymph</li>
 		<li>Kurin_Citizen</li>
 		<li>Kurin_Army</li>
+		<li>Kurin_Warmonger</li>
 		<li>Kurin_Trader</li>
 	</spawnCategories>
 </AlienRace.BackstoryDef>
@@ -735,6 +762,7 @@
 	</li>
 	</skillGains>
 	<spawnCategories>
+		<li>Kurin_Nymph</li>
 		<li>Kurin_Citizen</li>
 		<li>Kurin_Trader</li>
 		<li>Kurin_Elite</li>
@@ -770,8 +798,10 @@
 	</li>
 	</skillGains>
 	<spawnCategories>
+		<li>Kurin_Nymph</li>
 		<li>Kurin_Citizen</li>
 		<li>Kurin_Army</li>
+		<li>Kurin_Warmonger</li>
 		<li>Kurin_Trader</li>
 		<li>Kurin_Elite</li>
 	</spawnCategories>
@@ -839,6 +869,7 @@
 		</li>
 	</forcedTraits>
 	<spawnCategories>
+		<li>Kurin_Nymph</li>
 		<li>Kurin_Citizen</li>
 		<li>Kurin_Trader</li>
 		<li>Kurin_Elite</li>
@@ -866,8 +897,10 @@
 	</li>
 	</skillGains>
 	<spawnCategories>
+		<li>Kurin_Nymph</li>
 		<li>Kurin_Citizen</li>
 		<li>Kurin_Army</li>
+		<li>Kurin_Warmonger</li>
 		<li>Kurin_Trader</li>
 		<li>Kurin_Elite</li>
 	</spawnCategories>
@@ -944,6 +977,7 @@
 	</li>
 	</skillGains>
 	<spawnCategories>
+		<li>Kurin_Nymph</li>
 		<li>Kurin_Citizen</li>
 		<li>Kurin_Trader</li>
 		<li>Kurin_Elite</li>
@@ -973,6 +1007,7 @@
 	<spawnCategories>
 		<li>Kurin_Citizen</li>
 		<li>Kurin_Army</li>
+		<li>Kurin_Warmonger</li>
 	</spawnCategories>
 </AlienRace.BackstoryDef>
 <!--스카우트단-->
@@ -1007,6 +1042,7 @@
 	<spawnCategories>
 		<li>Kurin_Citizen</li>
 		<li>Kurin_Army</li>
+		<li>Kurin_Warmonger</li>
 	</spawnCategories>
 </AlienRace.BackstoryDef>
 <!--체육부원-->
@@ -1041,6 +1077,7 @@
 	<spawnCategories>
 		<li>Kurin_Citizen</li>
 		<li>Kurin_Army</li>
+		<li>Kurin_Warmonger</li>
 	</spawnCategories>
 </AlienRace.BackstoryDef>
 <!--==========성년기==========-->
@@ -2618,6 +2655,33 @@
 	<spawnCategories>
 		<li>Kurin_Soldier</li>
 		<li>Kurin_EliteSoldier</li>
+	</spawnCategories>
+</AlienRace.BackstoryDef>
+
+ <AlienRace.BackstoryDef ParentName="Kurin_BaseBackstory">
+	<defName>Kurin_BackstoryAdult_61</defName>
+	<title>Kurin Warmonger</title>
+	<titleShort>Warmonger</titleShort>
+	<baseDescription>[PAWN_nameDef] quickly proved themselves to be ruthless in combat and won many victories</baseDescription>
+	<slot>Adulthood</slot>
+	<skillGains>
+	<li>
+	<defName>Shooting</defName>
+	<amount>13</amount>
+	</li>
+	<li>
+	<defName>Melee</defName>
+	<amount>12</amount>
+	</li>
+	</skillGains>
+	<forcedTraits>
+		<li>
+			<defName>Bloodlust</defName>
+			<chance>100</chance>
+		</li>
+	</forcedTraits>
+	<spawnCategories>
+		<li>Kurin_Warmonger</li>
 	</spawnCategories>
 </AlienRace.BackstoryDef>
 </Defs>

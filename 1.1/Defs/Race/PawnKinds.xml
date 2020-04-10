@@ -58,7 +58,7 @@
       <li>Kurin_Citizen</li>
     </backstoryCategories>
     <inventoryOptions>
-      <skipChance>0.4</skipChance>
+      <skipChance>0</skipChance>
       <subOptionsChooseOne>
         <li>
           <choiceChance>100</choiceChance>
@@ -97,7 +97,7 @@
       <li>Kurin_Citizen</li>
     </backstoryCategories>
     <inventoryOptions>
-      <skipChance>0.4</skipChance>
+      <skipChance>0</skipChance>
       <subOptionsChooseOne>
         <li>
           <choiceChance>100</choiceChance>
@@ -158,6 +158,10 @@
     <weaponTags>
       <li>Kurin_Rifle</li>
     </weaponTags>
+    <weaponMoney>
+      <min>600</min>
+      <max>700</max>
+    </weaponMoney>
     <apparelTags>
       <li>Kurin_Citizen</li>
     </apparelTags>
@@ -173,7 +177,7 @@
           <thingDef>Silver</thingDef>
           <countRange>
             <min>100</min>
-            <max>200</max>
+            <max>300</max>
           </countRange>
         </li>
       </subOptionsChooseOne>
@@ -210,6 +214,19 @@
       <li>Kurin_Army</li>
       <li>Kurin_Soldier</li>
     </backstoryCategories>
+    <inventoryOptions>
+      <skipChance>0</skipChance>
+      <subOptionsChooseOne>
+        <li>
+          <choiceChance>100</choiceChance>
+          <thingDef>Silver</thingDef>
+          <countRange>
+            <min>100</min>
+            <max>200</max>
+          </countRange>
+        </li>
+      </subOptionsChooseOne>
+    </inventoryOptions>
   </PawnKindDef>
 <!--군인(분대장)-->
   <PawnKindDef ParentName="Kurin_NPCBase">
@@ -242,6 +259,19 @@
       <li>Kurin_Army</li>
       <li>Kurin_EliteSoldier</li>
     </backstoryCategories>
+    <inventoryOptions>
+      <skipChance>0</skipChance>
+      <subOptionsChooseOne>
+        <li>
+          <choiceChance>100</choiceChance>
+          <thingDef>Silver</thingDef>
+          <countRange>
+            <min>100</min>
+            <max>200</max>
+          </countRange>
+        </li>
+      </subOptionsChooseOne>
+    </inventoryOptions>
   </PawnKindDef>
 <!--군인(저격수)-->
   <PawnKindDef ParentName="Kurin_NPCBase">
@@ -274,5 +304,61 @@
       <li>Kurin_Army</li>
       <li>Kurin_Sniper</li>
     </backstoryCategories>
+    <inventoryOptions>
+      <skipChance>0</skipChance>
+      <subOptionsChooseOne>
+        <li>
+          <choiceChance>100</choiceChance>
+          <thingDef>Silver</thingDef>
+          <countRange>
+            <min>100</min>
+            <max>200</max>
+          </countRange>
+        </li>
+      </subOptionsChooseOne>
+    </inventoryOptions>
+  </PawnKindDef>
+  
+  <PawnKindDef ParentName="Kurin_NPCBase">
+    <defName>Kurin_Warmonger</defName>
+    <label>Kurin Warmonger</label>
+    <combatPower>40</combatPower>
+    <itemQuality>Excellent</itemQuality>
+    <isFighter>True</isFighter>
+    <apparelMoney>
+      <min>1200</min>
+      <max>1600</max>
+    </apparelMoney>
+    <apparelTags>
+      <li>Kurin_Military</li>
+    </apparelTags>
+	<weaponTags>
+	  <li>Kurin_Rifle</li>
+	</weaponTags>
+    <weaponMoney>
+      <min>1200</min>
+      <max>1400</max>
+    </weaponMoney>
+    <apparelAllowHeadgearChance>0.8</apparelAllowHeadgearChance>
+    <backstoryFiltersOverride>
+        <li>
+            <categories>
+                <li>Kurin_Warmonger</li>
+            </categories>
+        </li>
+    </backstoryFiltersOverride>
+    <inventoryOptions>
+      <skipChance>0</skipChance>
+      <subOptionsChooseOne>
+        <li>
+          <choiceChance>100</choiceChance>
+          <thingDef>Silver</thingDef>
+          <countRange>
+            <min>100</min>
+            <max>200</max>
+          </countRange>
+        </li>
+      </subOptionsChooseOne>
+    </inventoryOptions>
   </PawnKindDef>
 </Defs>
