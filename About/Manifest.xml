@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <Manifest>
 	<identifier>Kurin HAR Edition</identifier>
-	<version>1.0.1</version>
+	<version>1.0.2</version>
 	<dependencies>
 		<li>erdelf.HumanoidAlienRaces</li>
 		<li>Dalrae.GaramAdvancedApparel</li>
@@ -13,6 +13,6 @@
 	</loadAfter>
 	<suggests>
 	</suggests>
-	<manifestUri>https://github.com/MaroonToon/Kurin/tree/NSFW/About/Manifest.xml</manifestUri>
+	<manifestUri>https://github.com/MaroonToon/Kurin/blob/NSFW/About/Manifest.xml</manifestUri>
 	<downloadUri>https://github.com/MaroonToon/Kurin</downloadUri>
 </Manifest>
