@@ -325,6 +325,7 @@
     <combatPower>40</combatPower>
     <itemQuality>Excellent</itemQuality>
     <isFighter>True</isFighter>
+	<factionLeader>true</factionLeader>
     <apparelMoney>
       <min>1200</min>
       <max>1600</max>

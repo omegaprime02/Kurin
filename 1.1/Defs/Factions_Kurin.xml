@@ -167,7 +167,7 @@
 <FactionDef ParentName="HumanFactionBase">
 	<defName>Kurin_Faction_Hostile</defName>
 	<label>Battle Foxes</label>
-	<description>Kurin who see combat as the only way to protecting their people.</description>
+	<description>Kurin who see combat as the only way of protecting their people.</description>
 	<colorSpectrum>
       <li>(216, 89, 5)</li>
 	</colorSpectrum>
