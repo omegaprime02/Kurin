@@ -26,6 +26,7 @@
 		<tags>
 			<li>Kurin_Colonist</li>
 			<li>Kurin_Citizen</li>
+			<li>Kurin_Grunt</li>
 			<!--Royal-->
 			<li>Royal</li>
 			<li>RoyalTier1</li>
@@ -109,6 +110,7 @@
 		<tags>
 			<li>Kurin_Colonist</li>
 			<li>Kurin_Citizen</li>
+			<li>Kurin_Grunt</li>
 		</tags>
 	</apparel>
 </ThingDef>

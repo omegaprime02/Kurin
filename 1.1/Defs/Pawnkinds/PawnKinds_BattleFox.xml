@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+ <PawnKindDef Name="Kurin_HostileBase" Abstract="True">
+    <race>Kurin_Race</race>
+    <defaultFactionType>Kurin_Faction_Hostile</defaultFactionType>
+    <backstoryCryptosleepCommonality>0</backstoryCryptosleepCommonality>
+	<baseRecruitDifficulty>0.9</baseRecruitDifficulty>
+    <invNutrition>3</invNutrition> <!--
+    <apparelRequired>
+      <li>Kurin_Apparel_Underwear</li>
+    </apparelRequired> -->
+  </PawnKindDef>
+  
+   <PawnKindDef ParentName="Kurin_HostileBase">
+    <defName>Kurin_Scout</defName>
+    <label>kurin scout</label>
+    <combatPower>45</combatPower>
+    <itemQuality>Poor</itemQuality>
+    <isFighter>true</isFighter>
+    <apparelMoney>
+      <min>600</min>
+      <max>800</max>
+    </apparelMoney>
+    <apparelTags>
+      <li>Kurin_Citizen</li>
+    </apparelTags>
+    <apparelAllowHeadgearChance>0.2</apparelAllowHeadgearChance>
+    <weaponTags>
+      <li>Kurin_Sniper_Rifle</li>
+    </weaponTags>
+    <weaponMoney>
+      <min>455</min>
+      <max>500</max>
+    </weaponMoney>
+    <backstoryCategories>
+      <li>Kurin_Citizen</li>
+      <li>Kurin_Army</li>
+    </backstoryCategories>
+    <inventoryOptions>
+      <skipChance>0</skipChance>
+      <subOptionsChooseOne>
+        <li>
+          <choiceChance>100</choiceChance>
+          <thingDef>Silver</thingDef>
+          <countRange>
+            <min>100</min>
+            <max>200</max>
+          </countRange>
+        </li>
+      </subOptionsChooseOne>
+    </inventoryOptions>
+  </PawnKindDef>
+  
+   <PawnKindDef ParentName="Kurin_HostileBase">
+    <defName>Kurin_Savage</defName>
+    <label>kurin savage</label>
+    <combatPower>35</combatPower>
+    <itemQuality>Awful</itemQuality>
+    <isFighter>true</isFighter>
+    <apparelMoney>
+      <min>0</min>
+      <max>500</max>
+    </apparelMoney>
+    <apparelTags>
+      <li>Kurin_Colonist</li>
+    </apparelTags>
+    <apparelAllowHeadgearChance>0.2</apparelAllowHeadgearChance>
+    <weaponTags>
+      <li>MedievalMeleeBasic</li>
+    </weaponTags>
+    <weaponMoney>
+      <min>300</min>
+      <max>500</max>
+    </weaponMoney>
+    <backstoryCategories>
+      <li>Kurin_Citizen</li>
+      <li>Kurin_Army</li>
+    </backstoryCategories>
+  </PawnKindDef>
+  
+   <PawnKindDef ParentName="Kurin_HostileBase">
+    <defName>Kurin_Initiate</defName>
+    <label>kurin initiate</label>
+    <combatPower>45</combatPower>
+    <itemQuality>Normal</itemQuality>
+    <isFighter>true</isFighter>
+    <apparelMoney>
+      <min>600</min>
+      <max>800</max>
+    </apparelMoney>
+    <apparelTags>
+      <li>Kurin_Grunt</li>
+    </apparelTags>
+    <apparelAllowHeadgearChance>0.2</apparelAllowHeadgearChance>
+    <weaponTags>
+      <li>Gun</li>
+    </weaponTags>
+    <weaponMoney>
+      <min>300</min>
+      <max>500</max>
+    </weaponMoney>
+    <backstoryCategories>
+      <li>Kurin_Citizen</li>
+    </backstoryCategories>
+    <inventoryOptions>
+      <skipChance>0</skipChance>
+      <subOptionsChooseOne>
+        <li>
+          <choiceChance>100</choiceChance>
+          <thingDef>Silver</thingDef>
+          <countRange>
+            <min>100</min>
+            <max>200</max>
+          </countRange>
+        </li>
+      </subOptionsChooseOne>
+    </inventoryOptions>
+  </PawnKindDef>
+</Defs>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -230,10 +230,9 @@
 		<li>
 			<kindDef>Combat</kindDef>
 			<options>
-				<Kurin_Soldier>8</Kurin_Soldier>
-				<Kurin_EliteSoldier>4</Kurin_EliteSoldier>
-				<Kurin_Sniper>2</Kurin_Sniper>
-				<Kurin_Warmonger>1</Kurin_Warmonger>
+			<Kurin_Scout>5</Kurin_Scout>
+			<Kurin_Savage>12</Kurin_Savage>
+			<Kurin_Initiate>8</Kurin_Initiate>
 			</options>
 		</li>
 		<li>

@@ -1,49 +1,22 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
-<!--==============================================플레이어펙션==============================================-->
-  <PawnKindDef>
-    <race>Kurin_Race</race>
-    <combatPower>40</combatPower>
-    <isFighter>false</isFighter>
-    <apparelIgnoreSeasons>true</apparelIgnoreSeasons>
-    <forceNormalGearQuality>true</forceNormalGearQuality>
-    <defName>Kurin_Colonist</defName>
-    <label>kurin colonist</label>
-    <defaultFactionType>Kurin_Player</defaultFactionType>
-    <backstoryCategories>
-      <li>Kurin_Citizen</li>
-    </backstoryCategories>
-    <apparelTags>
-      <li>Kurin_Colonist</li>
-    </apparelTags>
-    <apparelAllowHeadgearChance>0</apparelAllowHeadgearChance>
-    <apparelMoney>
-      <min>400</min>
-      <max>600</max>
-    </apparelMoney> <!--
-    <apparelRequired>
-      <li>Kurin_Underwear</li>
-    </apparelRequired> -->
-    <backstoryCryptosleepCommonality>0</backstoryCryptosleepCommonality>
-  </PawnKindDef>
 <!--==============================================NPC기본==============================================-->
-  <PawnKindDef Name="Kurin_NPCBase" Abstract="True">
+  <PawnKindDef Name="Kurin_RepublicBase" Abstract="True">
     <race>Kurin_Race</race>
     <defaultFactionType>Kurin_Faction</defaultFactionType>
     <backstoryCryptosleepCommonality>0</backstoryCryptosleepCommonality>
 	<baseRecruitDifficulty>0.9</baseRecruitDifficulty>
     <invNutrition>3</invNutrition> <!--
     <apparelRequired>
-      <li>Kurin_Underwear</li>
-	  <li>Kurin_Stocking</li>
+      <li>Kurin_Apparel_Underwear</li>
     </apparelRequired> -->
   </PawnKindDef>
 <!--==============================================NPC세부==============================================-->
 <!--시민-->
-  <PawnKindDef ParentName="Kurin_NPCBase">
+  <PawnKindDef ParentName="Kurin_RepublicBase">
     <defName>Kurin_Citizen</defName>
     <label>kurin citizen</label>
-    <combatPower>40</combatPower>
+    <combatPower>20</combatPower>
     <itemQuality>Normal</itemQuality>
     <isFighter>false</isFighter>
     <apparelMoney>
@@ -72,7 +45,7 @@
     </inventoryOptions>
   </PawnKindDef>
 <!--자경단-->
-  <PawnKindDef ParentName="Kurin_NPCBase">
+  <PawnKindDef ParentName="Kurin_RepublicBase">
     <defName>Kurin_Vigilante</defName>
     <label>kurin vigilante</label>
     <combatPower>40</combatPower>
@@ -87,7 +60,7 @@
     </apparelTags>
     <apparelAllowHeadgearChance>0.2</apparelAllowHeadgearChance>
     <weaponTags>
-      <li>gun</li>
+      <li>Gun</li>
     </weaponTags>
     <weaponMoney>
       <min>300</min>
@@ -111,10 +84,10 @@
     </inventoryOptions>
   </PawnKindDef>
 <!--상인-->
-  <PawnKindDef ParentName="Kurin_NPCBase">
+  <PawnKindDef ParentName="Kurin_RepublicBase">
     <defName>Kurin_Trader</defName>
     <label>kurin trader</label>
-    <combatPower>40</combatPower>
+    <combatPower>25</combatPower>
     <itemQuality>Normal</itemQuality>
     <isFighter>false</isFighter>
 	<trader>true</trader>
@@ -144,10 +117,10 @@
     </inventoryOptions>
   </PawnKindDef>
 <!--엘리트-->
-  <PawnKindDef ParentName="Kurin_NPCBase">
+  <PawnKindDef ParentName="Kurin_RepublicBase">
     <defName>Kurin_Elite</defName>
     <label>kurin elite</label>
-    <combatPower>40</combatPower>
+    <combatPower>35</combatPower>
     <itemQuality>Normal</itemQuality>
     <isFighter>false</isFighter>
 	<factionLeader>true</factionLeader>
@@ -184,7 +157,7 @@
     </inventoryOptions>
   </PawnKindDef>
 <!--군인(분대원)-->
-  <PawnKindDef ParentName="Kurin_NPCBase">
+  <PawnKindDef ParentName="Kurin_RepublicBase">
     <defName>Kurin_Soldier</defName>
     <label>kurin army soldier</label>
     <combatPower>100</combatPower>
@@ -229,7 +202,7 @@
     </inventoryOptions>
   </PawnKindDef>
 <!--군인(분대장)-->
-  <PawnKindDef ParentName="Kurin_NPCBase">
+  <PawnKindDef ParentName="Kurin_RepublicBase">
     <defName>Kurin_EliteSoldier</defName>
     <label>kurin army sergeant</label>
     <combatPower>120</combatPower>
@@ -274,7 +247,7 @@
     </inventoryOptions>
   </PawnKindDef>
 <!--군인(저격수)-->
-  <PawnKindDef ParentName="Kurin_NPCBase">
+  <PawnKindDef ParentName="Kurin_RepublicBase">
     <defName>Kurin_Sniper</defName>
     <label>kurin army sniper</label>
     <combatPower>140</combatPower>
@@ -319,54 +292,10 @@
     </inventoryOptions>
   </PawnKindDef>
   
-  <PawnKindDef ParentName="Kurin_NPCBase">
-    <defName>Kurin_Warmonger</defName>
-    <label>Kurin Warmonger</label>
-    <combatPower>40</combatPower>
-    <itemQuality>Excellent</itemQuality>
-    <isFighter>True</isFighter>
-	<factionLeader>true</factionLeader>
-    <apparelMoney>
-      <min>1200</min>
-      <max>1600</max>
-    </apparelMoney>
-    <apparelTags>
-      <li>Kurin_Military</li>
-    </apparelTags>
-	<weaponTags>
-	  <li>Kurin_Rifle</li>
-	</weaponTags>
-    <weaponMoney>
-      <min>1200</min>
-      <max>1400</max>
-    </weaponMoney>
-    <apparelAllowHeadgearChance>0.8</apparelAllowHeadgearChance>
-    <backstoryFiltersOverride>
-        <li>
-            <categories>
-                <li>Kurin_Warmonger</li>
-            </categories>
-        </li>
-    </backstoryFiltersOverride>
-    <inventoryOptions>
-      <skipChance>0</skipChance>
-      <subOptionsChooseOne>
-        <li>
-          <choiceChance>100</choiceChance>
-          <thingDef>Silver</thingDef>
-          <countRange>
-            <min>100</min>
-            <max>200</max>
-          </countRange>
-        </li>
-      </subOptionsChooseOne>
-    </inventoryOptions>
-  </PawnKindDef>
-  
-  <PawnKindDef ParentName="Kurin_NPCBase">
+  <PawnKindDef ParentName="Kurin_RepublicBase">
     <defName>Kurin_Nymph</defName>
     <label>kurin nymph</label>
-    <combatPower>40</combatPower>
+    <combatPower>10</combatPower>
     <itemQuality>Normal</itemQuality>
     <isFighter>false</isFighter>
     <apparelMoney>
