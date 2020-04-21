@@ -13,15 +13,6 @@
 		<DeteriorationRate>1</DeteriorationRate>
 		<Beauty>1</Beauty>
 	</statBases>
-    <comps>
-      <li Class="CompProperties_Forbiddable"/>
-      <li>
-        <compClass>CompQuality</compClass>
-      </li>
-      <li>
-        <compClass>CompColorable</compClass>
-      </li> 
-    </comps>
 	<recipeMaker>
 		<workSpeedStat>GeneralLaborSpeed</workSpeedStat>
 		<workSkill>Crafting</workSkill>

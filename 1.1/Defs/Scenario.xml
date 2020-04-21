@@ -19,7 +19,7 @@ But rumors that they had crashed into the perimeter fell into the pirates' ears,
 			<!-- Config pages -->
 			<li Class="ScenPart_ConfigPage_ConfigureStartingPawns">
 				<def>ConfigPage_ConfigureStartingPawns</def>
-				<pawnCount>3</pawnCount>
+				<pawnCount>4</pawnCount>
 				<pawnChoiceCount>8</pawnChoiceCount>
 			</li>
 
@@ -34,12 +34,12 @@ But rumors that they had crashed into the perimeter fell into the pirates' ears,
 			<li Class="ScenPart_StartingThing_Defined">
 				<def>StartingThing_Defined</def>
 				<thingDef>Silver</thingDef>
-				<count>2400</count>
+				<count>300</count>
 			</li>
 			<li Class="ScenPart_StartingThing_Defined">
 				<def>StartingThing_Defined</def>
 				<thingDef>MealSurvivalPack</thingDef>
-				<count>50</count>
+				<count>40</count>
 			</li>
 			<li Class="ScenPart_StartingThing_Defined">
 				<def>StartingThing_Defined</def>
@@ -49,17 +49,17 @@ But rumors that they had crashed into the perimeter fell into the pirates' ears,
 			<li Class="ScenPart_StartingThing_Defined">
 				<def>StartingThing_Defined</def>
 				<thingDef>ComponentIndustrial</thingDef>
-				<count>30</count>
+				<count>25</count>
 			</li>
 			<li Class="ScenPart_StartingThing_Defined">
 				<def>StartingThing_Defined</def>
 				<thingDef>Steel</thingDef>
-				<count>1250</count>
+				<count>800</count>
 			</li>
 			<li Class="ScenPart_StartingThing_Defined">
 				<def>StartingThing_Defined</def>
 				<thingDef>WoodLog</thingDef>
-				<count>1250</count>
+				<count>600</count>
 			</li>
 			
 			<li Class="ScenPart_StartingThing_Defined">

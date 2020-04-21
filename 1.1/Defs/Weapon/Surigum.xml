@@ -16,7 +16,7 @@
 	</projectile>
 </ThingDef>
 
-<ThingDef ParentName="BaseHumanMakeableGun">
+<ThingDef ParentName="BaseMakeableGun">
 	<defName>Kurin_Gun_Surigum</defName>
 	<label>kurin surigum</label>
 	<description>단도 형태의 수리검입니다. 제한적이지만 원거리 공격도 가능합니다.</description>

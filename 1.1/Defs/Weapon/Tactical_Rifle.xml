@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
-<ThingDef ParentName="BaseHumanMakeableGun">
+<ThingDef ParentName="BaseMakeableGun">
 	<defName>Kurin_Gun_Assault_Rifle</defName>
 	<label>kurin assault rifle</label>
 	<description>쿠린들의 제식 소총입니다.</description>
@@ -67,7 +67,7 @@
 	</tools>
 </ThingDef>
 
-<ThingDef ParentName="BaseHumanMakeableGun">
+<ThingDef ParentName="BaseMakeableGun">
 	<defName>Kurin_Gun_Sniper_Rifle</defName>
 	<label>kurin sniper rifle</label>
 	<description>쿠린들의 제식 소총을 저격용으로 개량하였습니다.</description>

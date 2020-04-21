@@ -168,6 +168,9 @@
 		<ArmorRating_Heat>0.10</ArmorRating_Heat>
 	</statBases>
 	<apparel>
+		<tags>
+		 <li>Kurin_Grunt</li>
+		</tags>
 		<bodyPartGroups>
 			<li>UpperHead</li>
 			<li>Eyes</li>
@@ -245,6 +248,7 @@
 		</bodyPartGroups>
 		<wornGraphicPath>Kurin/Apparel/Overhead/Bikini_Armor_Headgear/Texture</wornGraphicPath>
       <tags>
+		<li>Kurin_Melee</li>
         <li>Royal</li>
         <li>RoyalTier5</li>
       </tags>
@@ -364,8 +368,8 @@
 		<hatRenderedFrontOfFace>true</hatRenderedFrontOfFace>
 		<tags>
 			<li>Kurin_Trader</li>
-        <li>Royal</li>
-        <li>RoyalTier2</li>
+			<li>Royal</li>
+			<li>RoyalTier2</li>
 		</tags>
 	</apparel>
 	<comps>

@@ -115,9 +115,18 @@
 		<li>
 			<kindDef>Combat</kindDef>
 			<options>
-				<Kurin_Soldier>4</Kurin_Soldier>
-				<Kurin_EliteSoldier>2</Kurin_EliteSoldier>
-				<Kurin_Sniper>1</Kurin_Sniper>
+				<Kurin_Scout>4</Kurin_Scout>
+				<Kurin_Savage>10</Kurin_Savage>
+				<Kurin_Initiate>10</Kurin_Initiate>
+				<Kurin_ELite_Scout>3</Kurin_ELite_Scout>
+				<Kurin_Recruit>7</Kurin_Recruit>
+				<Kurin_Ninja>2</Kurin_Ninja>
+				<Kurin_Trooper>6</Kurin_Trooper>
+				<Kurin_Slasher>5</Kurin_Slasher>
+				<Kurin_Sniper_H>4</Kurin_Sniper_H>
+				<Kurin_EliteTrooper>3</Kurin_EliteTrooper>
+				<Kurin_EliteSlasher>3</Kurin_EliteSlasher>
+				<Kurin_EliteSniper_H>2</Kurin_EliteSniper_H>
 				<Kurin_Elite>1</Kurin_Elite>
 			</options>
 		</li>
@@ -230,9 +239,20 @@
 		<li>
 			<kindDef>Combat</kindDef>
 			<options>
-			<Kurin_Scout>5</Kurin_Scout>
-			<Kurin_Savage>12</Kurin_Savage>
-			<Kurin_Initiate>8</Kurin_Initiate>
+				<Kurin_Scout>4</Kurin_Scout>
+				<Kurin_Savage>10</Kurin_Savage>
+				<Kurin_Initiate>10</Kurin_Initiate>
+				<Kurin_ELite_Scout>3</Kurin_ELite_Scout>
+				<Kurin_Recruit>7</Kurin_Recruit>
+				<Kurin_Ninja>2</Kurin_Ninja>
+				<Kurin_Trooper>6</Kurin_Trooper>
+				<Kurin_Slasher>5</Kurin_Slasher>
+				<Kurin_Sniper_H>4</Kurin_Sniper_H>
+				<Kurin_EliteTrooper>3</Kurin_EliteTrooper>
+				<Kurin_EliteSlasher>3</Kurin_EliteSlasher>
+				<Kurin_EliteSniper_H>2</Kurin_EliteSniper_H>
+				<Kurin_Warlord1>1</Kurin_Warlord1>
+				<Kurin_Warlord2>1</Kurin_Warlord2>
 			</options>
 		</li>
 		<li>

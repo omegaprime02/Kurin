@@ -66,6 +66,21 @@
 </ThingDef>
 
 <ThingDef ParentName="Kurin_StockingBase">
+	<defName>Kurin_Stockings</defName>
+	<label>kurin stockings</label>
+	<description>귀여운 흰색 스타킹입니다. 쿠린의 매력을 더욱 돋보이게 해줍니다.</description>
+	<graphicData>
+		<texPath>Kurin/Apparel/Stocking/White_Stockings/Texture</texPath>
+	</graphicData>
+	<apparel>
+		<wornGraphicPath>Kurin/Apparel/Stocking/White_Stockings/Texture</wornGraphicPath>
+	</apparel>
+	<comps>
+		<li Class="Garam_AdvancedApparel.AdvancedApparelCompProp">
+	</comps>
+</ThingDef>
+
+<ThingDef ParentName="Kurin_StockingBase">
 	<defName>Kurin_Stockings_Brown</defName>
 	<label>kurin brown stockings</label>
 	<description>섹시한 갈색 스타킹입니다. 쿠린의 매력을 더욱 돋보이게 해줍니다.</description>

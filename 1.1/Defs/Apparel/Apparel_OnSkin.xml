@@ -95,9 +95,6 @@
 		<StuffEffectMultiplierInsulation_Cold>0.10</StuffEffectMultiplierInsulation_Cold>
 		<StuffEffectMultiplierInsulation_Heat>0.30</StuffEffectMultiplierInsulation_Heat>
 	</statBases>
-	<comps>
-		<li Class="Garam_AdvancedApparel.AdvancedApparelCompProp"/>
-	</comps>
 </ThingDef>
 
 <!--================================================== Tear 2 ==================================================-->
@@ -110,7 +107,6 @@
 		<tags>
 			<li>Kurin_Colonist</li>
 			<li>Kurin_Citizen</li>
-			<li>Kurin_Grunt</li>
 		</tags>
 	</apparel>
 </ThingDef>
@@ -568,6 +564,9 @@
 		<Insulation_Heat>10</Insulation_Heat>
 	</statBases>
 	<apparel>
+		<tags>
+			<li>Kurin_Melee</li>
+		</tags>
 		<bodyPartGroups>
 			<li>Torso</li>
 			<li>Legs</li>
@@ -1050,5 +1049,208 @@
 		<NegotiationAbility>0.2</NegotiationAbility>
 	</equippedStatOffsets>
 </ThingDef>
+<!--================Ninja===============-->
 
+<ThingDef ParentName="Kurin_OnSkinBaseTear3">
+	<defName>Kurin_OnSkin_Ninja_Simple_Dress</defName>
+	<label>kurin ninja simple dress</label>
+	<description>흰색의 순수한 치마와 분홍색의 셔츠가 인상적인 쿠린들의 전통의상입니다.</description>
+	<graphicData>
+		<texPath>Kurin/Apparel/OnSkin/Traditional_Simple_Dress/Texture</texPath>
+	</graphicData>
+	<costList>
+		<DevilstrandCloth>25</DevilstrandCloth>
+	</costList>
+	<costStuffCount>75</costStuffCount>
+	<stuffCategories>
+		<li>Fabric</li>
+		<li>Leathery</li>
+	</stuffCategories>
+	<statBases>
+		<MaxHitPoints>150</MaxHitPoints>
+		<WorkToMake>8000</WorkToMake>
+		<StuffEffectMultiplierArmor>0.3</StuffEffectMultiplierArmor>
+		<StuffEffectMultiplierInsulation_Cold>0.30</StuffEffectMultiplierInsulation_Cold>
+		<StuffEffectMultiplierInsulation_Heat>0.20</StuffEffectMultiplierInsulation_Heat>
+	</statBases>
+	<equippedStatOffsets>
+		<SocialImpact>0.2</SocialImpact>
+		<TradePriceImprovement>0.1</TradePriceImprovement>
+	</equippedStatOffsets>
+	<apparel>
+		<bodyPartGroups>
+			<li>Torso</li>
+			<li>Legs</li>
+			<li>Neck</li>
+		</bodyPartGroups>
+		<tags>
+			<li>Kurin_Ninja</li>
+		</tags>
+		<wornGraphicPath>Kurin/Apparel/OnSkin/Traditional_Simple_Dress/Texture</wornGraphicPath>
+	</apparel>
+	<comps>
+		<li Class="Garam_AdvancedApparel.AdvancedApparelCompProp">
+			<drawColorOne Class="ColorGenerator_Options">
+				<options>
+					<li>
+						<weight>10</weight>
+						<only>(0.4, 0.4, 0.4)</only>
+					</li>
+				</options>
+			</drawColorOne>
+		</li>
+	</comps>
+</ThingDef>
+
+<ThingDef ParentName="Kurin_OnSkinBaseTear3">
+	<defName>Kurin_OnSkin_Ninja_Fancy_Dress</defName>
+	<label>kurin ninja fancy dress</label>
+	<description>푸른색의 화려한 치마와 포인트가 들어간 흰색의 셔츠가 인상적인 쿠린들의 전통의상입니다.</description>
+	<graphicData>
+		<texPath>Kurin/Apparel/OnSkin/Traditional_Fancy_Dress/Texture</texPath>
+	</graphicData>
+	<costList>
+		<DevilstrandCloth>25</DevilstrandCloth>
+	</costList>
+	<costStuffCount>75</costStuffCount>
+	<stuffCategories>
+		<li>Fabric</li>
+		<li>Leathery</li>
+	</stuffCategories>
+	<statBases>
+		<MaxHitPoints>150</MaxHitPoints>
+		<WorkToMake>8000</WorkToMake>
+		<StuffEffectMultiplierArmor>0.3</StuffEffectMultiplierArmor>
+		<StuffEffectMultiplierInsulation_Cold>0.25</StuffEffectMultiplierInsulation_Cold>
+		<StuffEffectMultiplierInsulation_Heat>0.25</StuffEffectMultiplierInsulation_Heat>
+	</statBases>
+	<equippedStatOffsets>
+		<SocialImpact>0.2</SocialImpact>
+		<TradePriceImprovement>0.1</TradePriceImprovement>
+	</equippedStatOffsets>
+	<comps>
+		<li Class="Garam_AdvancedApparel.AdvancedApparelCompProp">
+			<drawColorOne Class="ColorGenerator_Options">
+				<options>
+					<li>
+						<weight>10</weight>
+						<only>(0.4, 0.4, 0.4)</only>
+					</li>
+				</options>
+			</drawColorOne>
+		</li>
+	</comps>
+	<apparel>
+		<bodyPartGroups>
+			<li>Torso</li>
+			<li>Legs</li>
+			<li>Neck</li>
+		</bodyPartGroups>
+		<wornGraphicPath>Kurin/Apparel/OnSkin/Traditional_Fancy_Dress/Texture</wornGraphicPath>
+		<tags>
+			<li>Kurin_Ninja</li>
+		</tags>
+	</apparel>
+</ThingDef>
+
+<ThingDef ParentName="Kurin_OnSkinBaseTear3">
+	<defName>Kurin_OnSkin_Ninja_Luxury_Dress</defName>
+	<label>kurin ninja luxury dress</label>
+	<description>갈색 시스루 치마와 셔츠가 인상적인 쿠린들의 전통의상입니다.</description>
+	<graphicData>
+		<texPath>Kurin/Apparel/OnSkin/Traditional_Luxury_Dress/Texture</texPath>
+	</graphicData>
+	<costList>
+		<DevilstrandCloth>25</DevilstrandCloth>
+	</costList>
+	<costStuffCount>75</costStuffCount>
+	<stuffCategories>
+		<li>Fabric</li>
+		<li>Leathery</li>
+	</stuffCategories>
+	<statBases>
+		<MaxHitPoints>150</MaxHitPoints>
+		<WorkToMake>8000</WorkToMake>
+		<StuffEffectMultiplierArmor>0.3</StuffEffectMultiplierArmor>
+		<StuffEffectMultiplierInsulation_Cold>0.20</StuffEffectMultiplierInsulation_Cold>
+		<StuffEffectMultiplierInsulation_Heat>0.30</StuffEffectMultiplierInsulation_Heat>
+	</statBases>
+	<equippedStatOffsets>
+		<SocialImpact>0.2</SocialImpact>
+		<TradePriceImprovement>0.1</TradePriceImprovement>
+	</equippedStatOffsets>
+	<comps>
+		<li Class="Garam_AdvancedApparel.AdvancedApparelCompProp">
+			<drawColorOne Class="ColorGenerator_Options">
+				<options>
+					<li>
+						<weight>10</weight>
+						<only>(0.4, 0.4, 0.4)</only>
+					</li>
+				</options>
+			</drawColorOne>
+		</li>
+	</comps>
+	<apparel>
+		<bodyPartGroups>
+			<li>Torso</li>
+			<li>Legs</li>
+			<li>Arms</li>
+		</bodyPartGroups>
+		<wornGraphicPath>Kurin/Apparel/OnSkin/Traditional_Luxury_Dress/Texture</wornGraphicPath>
+		<tags>
+			<li>Kurin_Ninja</li>
+		</tags>
+	</apparel>
+</ThingDef>
+
+<ThingDef ParentName="Kurin_OnSkinBaseTear3">
+	<defName>Kurin_OnSkin_Seductive_Ninja_Dress</defName>
+	<label>kurin seductive ninja dress</label>
+	<description>한쪽 치마가 열려있는 아주 매혹적인 검은색의 드레스입니다.</description>
+	<graphicData>
+		<texPath>Kurin/Apparel/OnSkin/Seductive_Black_Dress/Texture</texPath>
+	</graphicData>
+	<costList>
+		<DevilstrandCloth>25</DevilstrandCloth>
+	</costList>
+	<costStuffCount>75</costStuffCount>
+	<stuffCategories>
+		<li>Fabric</li>
+		<li>Leathery</li>
+	</stuffCategories>
+	<statBases>
+		<MaxHitPoints>150</MaxHitPoints>
+		<WorkToMake>8000</WorkToMake>
+		<StuffEffectMultiplierArmor>0.3</StuffEffectMultiplierArmor>
+		<StuffEffectMultiplierInsulation_Cold>0.20</StuffEffectMultiplierInsulation_Cold>
+		<StuffEffectMultiplierInsulation_Heat>0.30</StuffEffectMultiplierInsulation_Heat>
+	</statBases>
+	<comps>
+		<li Class="Garam_AdvancedApparel.AdvancedApparelCompProp">
+			<drawColorOne Class="ColorGenerator_Options">
+				<options>
+					<li>
+						<weight>10</weight>
+						<only>(1.0, 1.0, 1.0)</only>
+					</li>
+				</options>
+			</drawColorOne>
+		</li>
+	</comps>
+	<apparel>
+		<tags>
+			<li>Kurin_Ninja</li>
+		</tags>
+		<bodyPartGroups>
+			<li>Torso</li>
+			<li>Legs</li>
+		</bodyPartGroups>
+		<wornGraphicPath>Kurin/Apparel/OnSkin/Seductive_Black_Dress/Texture</wornGraphicPath>
+	</apparel>
+	<equippedStatOffsets>
+		<SocialImpact>0.2</SocialImpact>
+		<NegotiationAbility>0.2</NegotiationAbility>
+	</equippedStatOffsets>
+</ThingDef>
 </Defs>
