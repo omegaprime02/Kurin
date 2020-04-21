@@ -76,7 +76,7 @@
 		<wornGraphicPath>Kurin/Apparel/Stocking/White_Stockings/Texture</wornGraphicPath>
 	</apparel>
 	<comps>
-		<li Class="Garam_AdvancedApparel.AdvancedApparelCompProp">
+		<li Class="Garam_AdvancedApparel.AdvancedApparelCompProp"/>
 	</comps>
 </ThingDef>
 

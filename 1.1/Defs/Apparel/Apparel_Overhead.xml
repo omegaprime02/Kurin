@@ -167,6 +167,9 @@
 		<ArmorRating_Blunt>0.20</ArmorRating_Blunt>
 		<ArmorRating_Heat>0.10</ArmorRating_Heat>
 	</statBases>
+	<equippedStatOffsets>
+		<ShootingAccuracyPawn>1.0</ShootingAccuracyPawn>
+	</equippedStatOffsets>
 	<apparel>
 		<tags>
 		 <li>Kurin_Grunt</li>

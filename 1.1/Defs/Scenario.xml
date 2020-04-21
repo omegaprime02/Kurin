@@ -68,7 +68,12 @@ But rumors that they had crashed into the perimeter fell into the pirates' ears,
 			</li>
 			<li Class="ScenPart_StartingThing_Defined">
 				<def>StartingThing_Defined</def>
+				<thingDef>Kurin_Gun_Sniper_Rifle</thingDef>
+			</li>
+			<li Class="ScenPart_StartingThing_Defined">
+				<def>StartingThing_Defined</def>
 				<thingDef>Kurin_Overhead_Goggles</thingDef>
+				<count>2</count>
 			</li>
 			<li Class="ScenPart_StartingThing_Defined">
 				<def>StartingThing_Defined</def>
