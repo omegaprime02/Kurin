@@ -10,6 +10,7 @@
     <apparelRequired>
       <li>Kurin_Apparel_Underwear</li>
     </apparelRequired> -->
+	<apparelIgnoreSeasons>true</apparelIgnoreSeasons>
   </PawnKindDef>
 <!--==============================================NPC세부==============================================-->
 <!--시민-->

@@ -9,6 +9,7 @@
     <apparelRequired>
       <li>Kurin_Apparel_Underwear</li>
     </apparelRequired> -->
+	<apparelIgnoreSeasons>true</apparelIgnoreSeasons>
   </PawnKindDef>
   
    <PawnKindDef ParentName="Kurin_HostileBase">
@@ -536,6 +537,7 @@
     <combatPower>150</combatPower>
     <itemQuality>Masterwork</itemQuality>
     <isFighter>true</isFighter>
+	<factionLeader>true</factionLeader>
     <apparelMoney>
       <min>3000</min>
       <max>5000</max>
@@ -575,6 +577,7 @@
     <combatPower>150</combatPower>
     <itemQuality>Masterwork</itemQuality>
     <isFighter>true</isFighter>
+	<factionLeader>true</factionLeader>
     <apparelMoney>
       <min>3000</min>
       <max>5000</max>
@@ -592,7 +595,7 @@
       <max>5000</max>
     </weaponMoney>
     <backstoryCategories>
-      <li>Kurin_Warmonger</li>
+	  <li>Kurin_Warmonger</li>
     </backstoryCategories>
     <inventoryOptions>
       <skipChance>0</skipChance>

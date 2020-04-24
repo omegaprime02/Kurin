@@ -409,6 +409,12 @@
 		<StuffEffectMultiplierInsulation_Heat>0.10</StuffEffectMultiplierInsulation_Heat>
 	</statBases>
 	<apparel>
+		<tags>
+			<!--Royal-->
+ 			 <li>Royal</li>
+ 			 <li>RoyalTier2</li>
+			<!--Royal-->
+		</tags>
 		<bodyPartGroups>
 			<li>Torso</li>
 			<li>Legs</li>
@@ -565,6 +571,9 @@
 	</statBases>
 	<apparel>
 		<tags>
+			<!--Royal-->
+ 			 <li>RoyalCombatGear</li>
+			<!--Royal-->
 			<li>Kurin_Melee</li>
 		</tags>
 		<bodyPartGroups>
@@ -1050,7 +1059,25 @@
 	</equippedStatOffsets>
 </ThingDef>
 <!--================Ninja===============-->
-
+<ThingDef Name="Kurin_OnSkinBaseTear4" ParentName="Kurin_OnSkinBaseNinja" Abstract="True">
+	<recipeMaker>
+		<researchPrerequisite>Kurin_ApparelT3</researchPrerequisite>
+	</recipeMaker>
+</ThingDef>
+<ThingDef Name="Kurin_OnSkinBaseNinja" ParentName="Kurin_ApparelBaseNinja" Abstract="True">
+	<statBases>
+		<Mass>0.4</Mass>
+		<EquipDelay>2.0</EquipDelay>
+	</statBases>
+	<apparel>
+		<layers>
+			<li>OnSkin</li>
+		</layers>
+	</apparel>
+	<thingCategories>
+		<li>Kurin_Apparel_OnSkin</li>
+	</thingCategories>
+</ThingDef>
 <ThingDef ParentName="Kurin_OnSkinBaseTear3">
 	<defName>Kurin_OnSkin_Ninja_Simple_Dress</defName>
 	<label>kurin ninja simple dress</label>
