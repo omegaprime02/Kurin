@@ -17,17 +17,23 @@
 			<displayName>Humanoid Alien Race Framework</displayName>
 			<steamWorkshopUrl>steam://url/CommunityFilePage/839005762</steamWorkshopUrl>
 		</li>
+		<li>
+			<packageId>Alias.DegeneralizeWork</packageId>
+			<displayName>De-generalize Work</displayName>
+			<steamWorkshopUrl>steam://url/CommunityFilePage/2011655761</steamWorkshopUrl>
+		</li>
 	</modDependencies>
 	<loadAfter>
 		<li>Dalrae.GaramAdvancedApparel</li>
 		<li>erdelf.HumanoidAlienRaces</li>
+		<li>Alias.DegeneralizeWork</li>
 	</loadAfter>
 	<incompatibleWith>
 		<li>Dalrae.GaramRaceAddon</li>
 	</incompatibleWith>
 	<description>========== Info ==========
 	kurin for Humanoid alien races
-	Do not use with lewd/fixed Kurin or Garam race addon
+	lewd foxes for lewd gamers
 	This is the NSFW version ;)
 	</description>
 </ModMetaData>
