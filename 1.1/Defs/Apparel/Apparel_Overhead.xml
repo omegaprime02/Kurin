@@ -173,6 +173,7 @@
 	<apparel>
 		<tags>
 		 <li>Kurin_Grunt</li>
+ 		<li>RoyalCombatGear</li>
 		</tags>
 		<bodyPartGroups>
 			<li>UpperHead</li>
@@ -252,8 +253,7 @@
 		<wornGraphicPath>Kurin/Apparel/Overhead/Bikini_Armor_Headgear/Texture</wornGraphicPath>
       <tags>
 		<li>Kurin_Melee</li>
-        <li>Royal</li>
-        <li>RoyalTier5</li>
+ 		<li>RoyalCombatGear</li>
       </tags>
 	</apparel>
 	<graphicData>
@@ -318,6 +318,7 @@
 		<wornGraphicPath>Kurin/Apparel/Overhead/Military_Helmet_A/Texture</wornGraphicPath>
 		<tags>
 			<li>Kurin_Military</li>
+ 			 <li>RoyalCombatGear</li>
 		</tags>
 	</apparel>
 	<comps>
@@ -332,7 +333,7 @@
 			</drawColorOne>
 			<randomTextureWhenGenerated>
 				<li>Kurin/Apparel/Overhead/Military_Helmet_A/Texture</li>
-				<li>Kurin/Apparel/Overhead/Military_Helmet_B/Texture</li>
+				<li>Kurin/Apparel/Overhead/Military_Helmet_A/Texture1</li>
 			</randomTextureWhenGenerated>
 		</li>
 	</comps>

@@ -522,7 +522,7 @@
                         <weight>10</weight>
                         <only>RGBA(1, 1, 1, 1.000)</only>
                     </li>
-                    <!--<li>
+                    <li>
                         <weight>10</weight>
                         <only>RGBA(0.949, 0.929, 0.878, 1.000)</only>
                     </li>
@@ -549,17 +549,21 @@
                     <li>
                         <weight>5</weight>
                         <only>RGBA(0.894, 0.620, 0.353, 1.000)</only>
-                    </li> -->
-					<!--
+                    </li>
                     <li>
                         <weight>5</weight>
                         <only>RGBA(0.708, 0.492, 0.273, 1.000)</only>
                     </li>
-					-->
                 </options>
             </alienskincolorgen>
 		</alienPartGenerator>
         </generalSettings>
+		<thoughtSettings>
+			<cannotReceiveThoughts>
+				<li>Naked</li>
+				<li>SharedBed</li>
+            </cannotReceiveThoughts>
+        </thoughtSettings>
 		<relationSettings>
 			<relationChanceModifierSibling>1.6</relationChanceModifierSibling>
 			<relationChanceModifierParent>1</relationChanceModifierParent>
@@ -645,6 +649,7 @@
 				<li>Kurin_Shell_Duster</li>
 				<li>Kurin_Shell_Winter_Padding</li>
 				<li>Kurin_OnSkin_Traditional_Coat</li>
+				<li>Kurin_Belt_Scarf</li>
             </apparelList>
 			<whiteApparelList>
 				<li>Apparel_ShieldBelt</li>

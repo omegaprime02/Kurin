@@ -103,12 +103,6 @@
 	<recipeMaker>
 		<researchPrerequisite>Kurin_ApparelT2</researchPrerequisite>
 	</recipeMaker>
-	<apparel>
-		<tags>
-			<li>Kurin_Colonist</li>
-			<li>Kurin_Citizen</li>
-		</tags>
-	</apparel>
 </ThingDef>
 
 <ThingDef ParentName="Kurin_OnSkinBaseTear2">
@@ -131,6 +125,11 @@
 	</apparel>
 	<comps>
 		<li Class="Garam_AdvancedApparel.AdvancedApparelCompProp">
+			<randomTextureWhenWorn>
+				<li>Kurin/Apparel/OnSkin/Hot_Pants/Texture</li>
+				<li>Kurin/Apparel/OnSkin/Hot_Pants/No_Bottoms/Texture</li>
+				<li>Kurin/Apparel/OnSkin/Hot_Pants/No_Tops/Texture</li>
+			</randomTextureWhenWorn>
 			<drawColorOne Class="ColorGenerator_Options">
 				<options>
 					<li>
@@ -182,6 +181,8 @@
 	</statBases>
 	<apparel>
 		<tags>
+			<li>Kurin_Colonist</li>
+			<li>Kurin_Citizen</li>
 			<li>Kurin_Nymph</li>
 		</tags>
 		<bodyPartGroups>
@@ -224,6 +225,10 @@
 		<li>Leathery</li>
 	</stuffCategories>
 	<apparel>
+		<tags>
+			<li>Kurin_Colonist</li>
+			<li>Kurin_Citizen</li>
+		</tags>
 		<bodyPartGroups>
 			<li>Torso</li>
 		</bodyPartGroups>
@@ -273,6 +278,10 @@
 		<StuffEffectMultiplierInsulation_Heat>0.20</StuffEffectMultiplierInsulation_Heat>
 	</statBases>
 	<apparel>
+		<tags>
+			<li>Kurin_Colonist</li>
+			<li>Kurin_Citizen</li>
+		</tags>
 		<bodyPartGroups>
 			<li>Torso</li>
 			<li>Neck</li>
@@ -291,6 +300,8 @@
 			</drawColorOne>
 			<randomTextureWhenWorn>
 				<li>Kurin/Apparel/OnSkin/Open_Back_Knit/Texture</li>
+				<li>Kurin/Apparel/OnSkin/Open_Back_Knit/No_Bow/Texture</li>
+				<li>Kurin/Apparel/OnSkin/Open_Front_Knit/No_Bow/Texture</li>
 				<li>Kurin/Apparel/OnSkin/Open_Front_Knit/Texture</li>
 			</randomTextureWhenWorn>
 		</li>
@@ -320,6 +331,10 @@
 		<StuffEffectMultiplierInsulation_Heat>0.20</StuffEffectMultiplierInsulation_Heat>
 	</statBases>
 	<apparel>
+		<tags>
+			<li>Kurin_Colonist</li>
+			<li>Kurin_Citizen</li>
+		</tags>
 		<bodyPartGroups>
 			<li>Torso</li>
 		</bodyPartGroups>
@@ -362,6 +377,10 @@
 		<StuffEffectMultiplierInsulation_Heat>0.10</StuffEffectMultiplierInsulation_Heat>
 	</statBases>
 	<apparel>
+		<tags>
+			<li>Kurin_Colonist</li>
+			<li>Kurin_Citizen</li>
+		</tags>
 		<bodyPartGroups>
 			<li>Torso</li>
 			<li>Arms</li>
@@ -410,6 +429,8 @@
 	</statBases>
 	<apparel>
 		<tags>
+			<li>Kurin_Colonist</li>
+			<li>Kurin_Citizen</li>
 			<!--Royal-->
  			 <li>Royal</li>
  			 <li>RoyalTier2</li>
@@ -522,6 +543,12 @@
 		<StuffEffectMultiplierInsulation_Heat>0.20</StuffEffectMultiplierInsulation_Heat>
 	</statBases>
 	<apparel>
+		<tags>
+			<!--Royal-->
+			<li>Royal</li>
+			<li>RoyalTier4</li>
+			<!--Royal-->
+		</tags>
 		<bodyPartGroups>
 			<li>Torso</li>
 			<li>Legs</li>
@@ -588,6 +615,12 @@
 	</apparel>
 	<comps>
 		<li Class="Garam_AdvancedApparel.AdvancedApparelCompProp">
+			<randomTextureWhenWorn>
+				<li>Kurin/Apparel/OnSkin/Bikini_Armor/No_Both/Texture</li>
+				<li>Kurin/Apparel/OnSkin/Bikini_Armor/No_Bottoms/Texture</li>
+				<li>Kurin/Apparel/OnSkin/Bikini_Armor/No_Tops/Texture</li>
+				<li>Kurin/Apparel/OnSkin/Bikini_Armor/Texture</li>
+			</randomTextureWhenWorn>
 			<drawColorOne Class="ColorGenerator_Options">
 				<options>
 					<li>
@@ -646,6 +679,7 @@
 		<wornGraphicPath>Kurin/Apparel/OnSkin/Military_Uniform/Texture</wornGraphicPath>
 		<tags>
 			<li>Kurin_Military</li>
+ 			 <li>RoyalCombatGear</li>
 		</tags>
 	</apparel>
 	<comps>
@@ -795,6 +829,8 @@
 			<li>Neck</li>
 		</bodyPartGroups>
 		<tags>
+			<li>Royal</li>
+			<li>RoyalTier7</li>
 			<li>Kurin_Trader</li>
 		</tags>
 		<wornGraphicPath>Kurin/Apparel/OnSkin/Traditional_Simple_Dress/Texture</wornGraphicPath>
@@ -859,6 +895,8 @@
 		</bodyPartGroups>
 		<wornGraphicPath>Kurin/Apparel/OnSkin/Traditional_Fancy_Dress/Texture</wornGraphicPath>
 		<tags>
+			<li>Royal</li>
+			<li>RoyalTier7</li>
 			<li>Kurin_Trader</li>
 		</tags>
 	</apparel>
@@ -910,6 +948,8 @@
 		</bodyPartGroups>
 		<wornGraphicPath>Kurin/Apparel/OnSkin/Traditional_Luxury_Dress/Texture</wornGraphicPath>
 		<tags>
+			<li>Royal</li>
+			<li>RoyalTier7</li>
 			<li>Kurin_Trader</li>
 		</tags>
 	</apparel>
@@ -988,6 +1028,10 @@
 		<StuffEffectMultiplierInsulation_Heat>0.30</StuffEffectMultiplierInsulation_Heat>
 	</statBases>
 	<apparel>
+		<tags>
+			<li>Royal</li>
+			<li>RoyalTier7</li>
+		</tags>
 		<bodyPartGroups>
 			<li>Torso</li>
 			<li>Legs</li>
@@ -1047,6 +1091,10 @@
 		</li>
 	</comps>
 	<apparel>
+		<tags>
+			<li>Royal</li>
+			<li>RoyalTier7</li>
+		</tags>
 		<bodyPartGroups>
 			<li>Torso</li>
 			<li>Legs</li>
@@ -1078,7 +1126,7 @@
 		<li>Kurin_Apparel_OnSkin</li>
 	</thingCategories>
 </ThingDef>
-<ThingDef ParentName="Kurin_OnSkinBaseTear3">
+<ThingDef ParentName="Kurin_OnSkinBaseTear4">
 	<defName>Kurin_OnSkin_Ninja_Simple_Dress</defName>
 	<label>kurin ninja simple dress</label>
 	<description>흰색의 순수한 치마와 분홍색의 셔츠가 인상적인 쿠린들의 전통의상입니다.</description>
@@ -1129,7 +1177,7 @@
 	</comps>
 </ThingDef>
 
-<ThingDef ParentName="Kurin_OnSkinBaseTear3">
+<ThingDef ParentName="Kurin_OnSkinBaseTear4">
 	<defName>Kurin_OnSkin_Ninja_Fancy_Dress</defName>
 	<label>kurin ninja fancy dress</label>
 	<description>푸른색의 화려한 치마와 포인트가 들어간 흰색의 셔츠가 인상적인 쿠린들의 전통의상입니다.</description>
@@ -1180,7 +1228,7 @@
 	</apparel>
 </ThingDef>
 
-<ThingDef ParentName="Kurin_OnSkinBaseTear3">
+<ThingDef ParentName="Kurin_OnSkinBaseTear4">
 	<defName>Kurin_OnSkin_Ninja_Luxury_Dress</defName>
 	<label>kurin ninja luxury dress</label>
 	<description>갈색 시스루 치마와 셔츠가 인상적인 쿠린들의 전통의상입니다.</description>
@@ -1231,7 +1279,7 @@
 	</apparel>
 </ThingDef>
 
-<ThingDef ParentName="Kurin_OnSkinBaseTear3">
+<ThingDef ParentName="Kurin_OnSkinBaseTear4">
 	<defName>Kurin_OnSkin_Seductive_Ninja_Dress</defName>
 	<label>kurin seductive ninja dress</label>
 	<description>한쪽 치마가 열려있는 아주 매혹적인 검은색의 드레스입니다.</description>
@@ -1259,7 +1307,7 @@
 				<options>
 					<li>
 						<weight>10</weight>
-						<only>(1.0, 1.0, 1.0)</only>
+						<only>(0.5, 0.5, 0.5)</only>
 					</li>
 				</options>
 			</drawColorOne>
