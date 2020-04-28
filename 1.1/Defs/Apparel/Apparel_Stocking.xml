@@ -164,6 +164,10 @@
 	</apparel>
 	<comps>
 		<li Class="Garam_AdvancedApparel.AdvancedApparelCompProp">
+			<randomTextureWhenWorn>
+				<li>Kurin/Apparel/Stocking/Pantyhose/Texture</li>
+				<li>Kurin/Apparel/Stocking/Pantyhose/No_Crotch/Texture</li>
+			</randomTextureWhenWorn>
 			<drawColorOne Class="ColorGenerator_Options">
 				<options>
 					<li>

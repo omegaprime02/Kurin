@@ -106,9 +106,8 @@
 		<li Class="Garam_AdvancedApparel.AdvancedApparelCompProp">
 			<randomTextureWhenWorn>
 				<li>Kurin/Apparel/Underwear/Prude_Underwear/Texture</li>
-				<li>Kurin/Apparel/Underwear/Prude_Underwear/No_Bottoms/Texture</li>
-				<li>Kurin/Apparel/Underwear/Prude_Underwear/No_Tops/Texture</li>
-				<li>Kurin/Apparel/Underwear/Prude_Underwear/Nothing/Texture</li>
+				<li>Kurin/Apparel/Underwear/Prude_Underwear/Texture1</li>
+				<li>Kurin/Apparel/Underwear/Prude_Underwear/Texture2</li>
 			</randomTextureWhenWorn>
 		</li>
 	</comps>
@@ -150,9 +149,6 @@
 	<graphicData>
 		<texPath>Kurin/Apparel/Underwear/Red_Underwear/Texture</texPath>
 	</graphicData>
-	<apparel>
-		<wornGraphicPath>Kurin/Apparel/Underwear/Red_Underwear/Texture</wornGraphicPath>
-	</apparel>
 	<comps>
 		<li Class="Garam_AdvancedApparel.AdvancedApparelCompProp">
 			<randomTextureWhenWorn>

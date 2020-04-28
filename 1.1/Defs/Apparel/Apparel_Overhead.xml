@@ -331,10 +331,10 @@
 					</li>
 				</options>
 			</drawColorOne>
-			<randomTextureWhenGenerated>
+			<randomTextureWhenWorn>
 				<li>Kurin/Apparel/Overhead/Military_Helmet_A/Texture</li>
 				<li>Kurin/Apparel/Overhead/Military_Helmet_A/Texture1</li>
-			</randomTextureWhenGenerated>
+			</randomTextureWhenWorn>
 		</li>
 	</comps>
 </ThingDef>
