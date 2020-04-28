@@ -36,12 +36,12 @@
 		<li>
 			<verbClass>Verb_Shoot</verbClass>
 			<hasStandardCommand>true</hasStandardCommand>
-			<defaultProjectile>Kurin_Bullet_Tactical_Rifle</defaultProjectile>
+			<defaultProjectile>Kurin_Bullet_Assault_Rifle</defaultProjectile>
 			<warmupTime>1.0</warmupTime>
 			<range>30.9</range>
 			<burstShotCount>2</burstShotCount>
 			<ticksBetweenBurstShots>10</ticksBetweenBurstShots>
-			<soundCast>Kurin_Shot_Tactical_Rifle</soundCast>
+			<soundCast>Kurin_Shot_Assault_Rifle</soundCast>
 			<soundCastTail>GunTail_Medium</soundCastTail>
 			<muzzleFlashScale>9</muzzleFlashScale>
 		</li>
@@ -102,9 +102,9 @@
 		<li>
 			<verbClass>Verb_Shoot</verbClass>
 			<hasStandardCommand>true</hasStandardCommand>
-			<defaultProjectile>Kurin_Bullet_Tactical_Rifle</defaultProjectile>
+			<defaultProjectile>Kurin_Bullet_Sniper_Rifle</defaultProjectile>
 			<warmupTime>1.0</warmupTime>
-			<range>40.9</range>
+			<range>45.9</range>
 			<soundCast>Kurin_Shot_Tactical_Rifle</soundCast>
 			<soundCastTail>GunTail_Medium</soundCastTail>
 			<muzzleFlashScale>9</muzzleFlashScale>
@@ -132,11 +132,26 @@
 </ThingDef>
 
 <ThingDef ParentName="BaseBullet">
-	<defName>Kurin_Bullet_Tactical_Rifle</defName>
-	<label>kurin tactical rifle bullet</label>
+	<defName>Kurin_Bullet_Assault_Rifle</defName>
+	<label>kurin assault rifle bullet</label>
 	<projectile>
 		<damageDef>Bullet</damageDef>
-		<damageAmountBase>16</damageAmountBase>
+		<damageAmountBase>13</damageAmountBase>
+		<stoppingPower>1.0</stoppingPower>
+		<speed>70</speed>
+	</projectile>
+	<graphicData>
+		<texPath>Things/Projectile/Bullet_small</texPath>
+		<graphicClass>Graphic_Single</graphicClass>
+	</graphicData>
+</ThingDef>
+
+<ThingDef ParentName="BaseBullet">
+	<defName>Kurin_Bullet_Sniper_Rifle</defName>
+	<label>kurin sniper rifle bullet</label>
+	<projectile>
+		<damageDef>Bullet</damageDef>
+		<damageAmountBase>18</damageAmountBase>
 		<stoppingPower>1.0</stoppingPower>
 		<speed>70</speed>
 	</projectile>
