@@ -51,18 +51,6 @@
 	<apparel>
 		<wornGraphicPath>Kurin/Apparel/Stocking/White_Stockings/Texture</wornGraphicPath>
 	</apparel>
-	<comps>
-		<li Class="Garam_AdvancedApparel.AdvancedApparelCompProp">
-			<drawColorOne Class="ColorGenerator_Options">
-				<options>
-					<li>
-						<weight>10</weight>
-						<only>(1.0, 1.0, 1.0)</only>
-					</li>
-				</options>
-			</drawColorOne>
-		</li>
-	</comps>
 </ThingDef>
 
 <ThingDef ParentName="Kurin_StockingBase">
@@ -75,9 +63,6 @@
 	<apparel>
 		<wornGraphicPath>Kurin/Apparel/Stocking/White_Stockings/Texture</wornGraphicPath>
 	</apparel>
-	<comps>
-		<li Class="Garam_AdvancedApparel.AdvancedApparelCompProp"/>
-	</comps>
 </ThingDef>
 
 <ThingDef ParentName="Kurin_StockingBase">
@@ -90,18 +75,6 @@
 	<apparel>
 		<wornGraphicPath>Kurin/Apparel/Stocking/Brown_Stockings/Texture</wornGraphicPath>
 	</apparel>
-	<comps>
-		<li Class="Garam_AdvancedApparel.AdvancedApparelCompProp">
-			<drawColorOne Class="ColorGenerator_Options">
-				<options>
-					<li>
-						<weight>10</weight>
-						<only>(1.0, 1.0, 1.0)</only>
-					</li>
-				</options>
-			</drawColorOne>
-		</li>
-	</comps>
 </ThingDef>
 
 <ThingDef ParentName="Kurin_StockingBase">
@@ -114,18 +87,6 @@
 	<apparel>
 		<wornGraphicPath>Kurin/Apparel/Stocking/Striped_Stockings/Texture</wornGraphicPath>
 	</apparel>
-	<comps>
-		<li Class="Garam_AdvancedApparel.AdvancedApparelCompProp">
-			<drawColorOne Class="ColorGenerator_Options">
-				<options>
-					<li>
-						<weight>10</weight>
-						<only>(1.0, 1.0, 1.0)</only>
-					</li>
-				</options>
-			</drawColorOne>
-		</li>
-	</comps>
 </ThingDef>
 
 <ThingDef ParentName="Kurin_StockingBase">
@@ -138,18 +99,6 @@
 	<apparel>
 		<wornGraphicPath>Kurin/Apparel/Stocking/Garterbelt_Stockings/Texture</wornGraphicPath>
 	</apparel>
-	<comps>
-		<li Class="Garam_AdvancedApparel.AdvancedApparelCompProp">
-			<drawColorOne Class="ColorGenerator_Options">
-				<options>
-					<li>
-						<weight>10</weight>
-						<only>(1.0, 1.0, 1.0)</only>
-					</li>
-				</options>
-			</drawColorOne>
-		</li>
-	</comps>
 </ThingDef>
 
 <ThingDef ParentName="Kurin_StockingBase">
@@ -162,22 +111,6 @@
 	<apparel>
 		<wornGraphicPath>Kurin/Apparel/Stocking/Pantyhose/Texture</wornGraphicPath>
 	</apparel>
-	<comps>
-		<li Class="Garam_AdvancedApparel.AdvancedApparelCompProp">
-			<randomTextureWhenWorn>
-				<li>Kurin/Apparel/Stocking/Pantyhose/Texture</li>
-				<li>Kurin/Apparel/Stocking/Pantyhose/No_Crotch/Texture</li>
-			</randomTextureWhenWorn>
-			<drawColorOne Class="ColorGenerator_Options">
-				<options>
-					<li>
-						<weight>10</weight>
-						<only>(1.0, 1.0, 1.0)</only>
-					</li>
-				</options>
-			</drawColorOne>
-		</li>
-	</comps>
 </ThingDef>
 
 </Defs>

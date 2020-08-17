@@ -58,9 +58,6 @@
 		<StuffEffectMultiplierInsulation_Cold>0.30</StuffEffectMultiplierInsulation_Cold>
 		<StuffEffectMultiplierInsulation_Heat>0.00</StuffEffectMultiplierInsulation_Heat>
 	</statBases>
-	<comps>
-		<li Class="Garam_AdvancedApparel.AdvancedApparelCompProp"/>
-	</comps>
 </ThingDef>
 
 <!--================================================== Tear 2 ==================================================-->

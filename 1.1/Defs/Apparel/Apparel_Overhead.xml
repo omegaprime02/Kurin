@@ -53,9 +53,6 @@
 		</bodyPartGroups>
 		<wornGraphicPath>Kurin/Apparel/Overhead/Winter_Hat/Texture</wornGraphicPath>
 	</apparel>
-	<comps>
-		<li Class="Garam_AdvancedApparel.AdvancedApparelCompProp"/>
-	</comps>
 </ThingDef>
 
 <ThingDef ParentName="Kurin_OverheadBaseTear1">
@@ -82,9 +79,6 @@
 		</bodyPartGroups>
 		<wornGraphicPath>Kurin/Apparel/Overhead/Summer_Hat/Texture</wornGraphicPath>
 	</apparel>
-	<comps>
-		<li Class="Garam_AdvancedApparel.AdvancedApparelCompProp"/>
-	</comps>
 </ThingDef>
 
 <!--================================================== Tear 2 ==================================================-->
@@ -129,18 +123,6 @@
 		</bodyPartGroups>
 		<wornGraphicPath>Kurin/Apparel/Overhead/Casual_Hair_Pin/Texture</wornGraphicPath>
 	</apparel>
-	<comps>
-		<li Class="Garam_AdvancedApparel.AdvancedApparelCompProp">
-			<drawColorOne Class="ColorGenerator_Options">
-				<options>
-					<li>
-						<weight>10</weight>
-						<only>(1.0, 1.0, 1.0)</only>
-					</li>
-				</options>
-			</drawColorOne>
-		</li>
-	</comps>
 	<equippedStatOffsets>
 		<MentalBreakThreshold>-0.06</MentalBreakThreshold>
 	</equippedStatOffsets>
@@ -227,18 +209,6 @@
 	<equippedStatOffsets>
 		<FoodPoisonChance>-0.2</FoodPoisonChance>
 	</equippedStatOffsets>
-	<comps>
-		<li Class="Garam_AdvancedApparel.AdvancedApparelCompProp">
-			<drawColorOne Class="ColorGenerator_Options">
-				<options>
-					<li>
-						<weight>10</weight>
-						<only>(1.0, 1.0, 1.0)</only>
-					</li>
-				</options>
-			</drawColorOne>
-		</li>
-	</comps>
 </ThingDef>
 
 <ThingDef ParentName="Kurin_OverheadBaseTear3">
@@ -321,22 +291,6 @@
  			 <li>RoyalCombatGear</li>
 		</tags>
 	</apparel>
-	<comps>
-		<li Class="Garam_AdvancedApparel.AdvancedApparelCompProp">
-			<drawColorOne Class="ColorGenerator_Options">
-				<options>
-					<li>
-						<weight>10</weight>
-						<only>(1.0, 1.0, 1.0)</only>
-					</li>
-				</options>
-			</drawColorOne>
-			<randomTextureWhenWorn>
-				<li>Kurin/Apparel/Overhead/Military_Helmet_A/Texture</li>
-				<li>Kurin/Apparel/Overhead/Military_Helmet_A/Texture1</li>
-			</randomTextureWhenWorn>
-		</li>
-	</comps>
 </ThingDef>
 
 <ThingDef ParentName="Kurin_OverheadBaseTear3">
@@ -376,18 +330,6 @@
 			<li>RoyalTier2</li>
 		</tags>
 	</apparel>
-	<comps>
-		<li Class="Garam_AdvancedApparel.AdvancedApparelCompProp">
-			<drawColorOne Class="ColorGenerator_Options">
-				<options>
-					<li>
-						<weight>10</weight>
-						<only>(1.0, 1.0, 1.0)</only>
-					</li>
-				</options>
-			</drawColorOne>
-		</li>
-	</comps>
 </ThingDef>
 
 <ThingDef ParentName="Kurin_OverheadBaseTear3">
@@ -422,18 +364,6 @@
 	<equippedStatOffsets>
 		<SocialImpact>0.1</SocialImpact>
 	</equippedStatOffsets>
-	<comps>
-		<li Class="Garam_AdvancedApparel.AdvancedApparelCompProp">
-			<drawColorOne Class="ColorGenerator_Options">
-				<options>
-					<li>
-						<weight>10</weight>
-						<only>(1.0, 1.0, 1.0)</only>
-					</li>
-				</options>
-			</drawColorOne>
-		</li>
-	</comps>
 </ThingDef>
 
 </Defs>

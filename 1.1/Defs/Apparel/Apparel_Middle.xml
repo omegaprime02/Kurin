@@ -53,18 +53,6 @@
 		</tags>
 		<wornGraphicPath>Kurin/Apparel/Middle/Body_Armor/Texture</wornGraphicPath>
 	</apparel>
-	<comps>
-		<li Class="Garam_AdvancedApparel.AdvancedApparelCompProp">
-			<drawColorOne Class="ColorGenerator_Options">
-				<options>
-					<li>
-						<weight>10</weight>
-						<only>(1.0, 1.0, 1.0)</only>
-					</li>
-				</options>
-			</drawColorOne>
-		</li>
-	</comps>
 	<statBases>
 		<MaxHitPoints>250</MaxHitPoints>
 		<WorkToMake>12000</WorkToMake>
