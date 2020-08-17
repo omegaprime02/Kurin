@@ -4,8 +4,11 @@
 <ThingDef Name="Kurin_ApparelBase" ParentName="ApparelBase" Abstract="True">
 	<graphicData>
 		<graphicClass>Graphic_Single</graphicClass>
-		<shaderType>Cutout</shaderType>
+		<shaderType>CutoutComplex</shaderType>
 	</graphicData>
+	<apparel>
+		<useWornGraphicMask>true</useWornGraphicMask>
+	</apparel>
 	<tradeability>Sellable</tradeability>
 	<techLevel>Industrial</techLevel>
 	<statBases>
@@ -40,8 +43,11 @@
 <ThingDef Name="Kurin_ApparelBaseNinja" ParentName="ApparelBase" Abstract="True">
 	<graphicData>
 		<graphicClass>Graphic_Single</graphicClass>
-		<shaderType>Cutout</shaderType>
+		<shaderType>CutoutComplex</shaderType>
 	</graphicData>
+	<apparel>
+		<useWornGraphicMask>true</useWornGraphicMask>
+	</apparel>
 	<tradeability>Sellable</tradeability>
 	<techLevel>Industrial</techLevel>
 	<statBases>
